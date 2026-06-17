@@ -43,11 +43,11 @@ export const HeroSlider = () => {
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/20 border border-secondary/40 text-secondary text-[10px] sm:text-xs font-bold tracking-widest">
               <span className="h-2 w-2 rounded-full bg-secondary animate-pulse" /> {s.eyebrow}
             </span>
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-[1.05] tracking-tight">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-black leading-[1.05] tracking-tight">
               {s.title.split(" ").map((w, k) => (
                 <span key={k} className={k % 3 === 1 ? "text-gradient-gold" : ""}>{w} </span>
               ))}
-            </h1>
+            </h2>
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-xl">{s.sub}</p>
             <div className="flex flex-col gap-4 pt-2 max-w-[280px] mx-auto items-center">
               <Button onClick={openWA} size="lg" className="w-full bg-gradient-gold text-gold-foreground hover:opacity-90 shadow-gold font-black text-base sm:text-lg rounded-2xl h-12">
