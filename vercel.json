@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "khelo24id.live"
+        }
+      ],
+      "destination": "https://www.khelo24id.live/:path*",
+      "permanent": true
+    }
+  ]
+}
