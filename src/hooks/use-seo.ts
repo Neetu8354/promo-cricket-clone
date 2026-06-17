@@ -8,7 +8,7 @@ interface SeoProps {
   ogImage?: string;
 }
 
-const SITE = "https://khelo24id.live";
+const SITE = "https://www.khelo24id.live";
 const SITE_NAME = "Khelo24Id.live";
 const DEFAULT_OG_IMAGE = `${SITE}/og-image.jpg`;
 
