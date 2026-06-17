@@ -5,7 +5,6 @@ import { WinnersTicker } from "@/components/WinnersTicker";
 import { TrustSection } from "@/components/TrustSection";
 import { PopularGames } from "@/components/PopularGames";
 import { GameSections } from "@/components/GameSections";
-import { LiveScores } from "@/components/LiveScores";
 import { Promotions } from "@/components/Promotions";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { PaymentBar } from "@/components/PaymentBar";
@@ -34,7 +33,6 @@ const Index = () => {
       <TrustSection />
       <PopularGames />
       <GameSections />
-      <LiveScores />
       <Promotions />
       <WhatsAppCTA />
       <PaymentBar />
