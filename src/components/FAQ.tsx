@@ -42,10 +42,23 @@ export const FAQ = () => (
         {FAQS.map((f, i) => (
           <AccordionItem key={i} value={`item-${i}`} className="bg-card/50 border border-border rounded-lg px-4">
             <AccordionTrigger className="text-left font-semibold hover:no-underline">{f.q}</AccordionTrigger>
-            <AccordionContent className="text-muted-foreground">{f.a}</AccordionContent>
+            <AccordionContent className="text-muted-foreground">
+              {f.a}
+              {/* Hidden text for SEO - always present in HTML source */}
+              <span className="sr-only">{f.a}</span>
+            </AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
+    </div>
+    {/* Hidden FAQ content for SEO - always present in page source */}
+    <div hidden>
+      {FAQS.map((f, i) => (
+        <div key={`hidden-faq-${i}`}>
+          <h3>{f.q}</h3>
+          <p>{f.a}</p>
+        </div>
+      ))}
     </div>
   </section>
 );
