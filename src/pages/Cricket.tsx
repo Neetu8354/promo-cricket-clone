@@ -9,16 +9,24 @@ import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import cardLive from "@/assets/card-livecricket.jpg";
 
-const TIPS = [
-  { icon: TrendingUp, title: "Live Cricket Betting Tips Online", desc: "Get real-time tips and insights based on match conditions, pitch reports and player form." },
-  { icon: Trophy, title: "Best Cricket Prediction Sites Online", desc: "Our ML-powered predictions give you an edge with ball-by-ball analysis and win probability." },
-  { icon: BarChart3, title: "Competitive Odds", desc: "Best odds in the market for IPL, T20 World Cup, ODI and all major tournaments." },
+const FEATURES = [
+  { icon: TrendingUp, title: "Instant Cricket ID", desc: "Ready in 5 minutes, delivered straight to WhatsApp" },
+  { icon: Trophy, title: "Best Odds in Market", desc: "Maximize your winnings with competitive odds on all matches" },
+  { icon: BarChart3, title: "Live Betting", desc: "Ball-by-ball real-time betting for maximum excitement" },
+];
+
+const MATCHES = [
+  { name: "IPL", desc: "Indian Premier League — India's biggest cricket celebration" },
+  { name: "ICC T20 World Cup", desc: "The world's best teams, the biggest stage" },
+  { name: "ODI World Cup", desc: "50 overs of non-stop action" },
+  { name: "India vs Pakistan", desc: "The greatest rivalry in cricket" },
+  { name: "Domestic Cricket", desc: "Ranji Trophy, Vijay Hazare & more" },
 ];
 
 const Cricket = () => {
   useSeo({
-    title: "Live Cricket Betting India | IPL Betting ID | Khelo24Id.live",
-    description: "Bet on live cricket matches at Khelo24Id.live. Get IPL betting ID, T20 World Cup odds, and real-time cricket predictions with fast withdrawals under 5 minutes.",
+    title: "Cricket Betting ID Online | Get Instant Cricket ID – Khelo24Id.live",
+    description: "Get your Online Cricket Betting ID in just 5 minutes at Khelo24Id! Bet on IPL, T20 World Cup & all cricket matches. Best odds, fast UPI withdrawal & 24x7 support. Register now!",
     canonical: "/cricket",
   });
 
@@ -28,41 +36,77 @@ const Cricket = () => {
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Cricket Betting" }]} />
       <section className="container py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
-          Live Cricket Betting on <span className="text-gradient-gold">Khelo24Id.live</span>
+          Get Your Online Cricket Betting ID — <span className="text-gradient-gold">Instant, Secure & 100% Trusted</span>
         </h1>
-        <p className="text-muted-foreground max-w-2xl mb-10">Bet on live cricket matches online with the best odds and fastest payouts in India.</p>
+        <p className="text-lg text-muted-foreground max-w-3xl mb-10">
+          In India, cricket isn't just a sport — it's a passion that runs through every vein. At Khelo24Id.live, we've taken that passion and turned it into something extraordinary. Now, watching a match isn't enough — bet on every ball and feel the thrill like never before!
+        </p>
 
+        {/* What is Cricket Betting ID */}
         <div className="grid md:grid-cols-2 gap-8 items-center mb-14">
-          <img src={cardLive} alt="bet on gameplay interface with khelo24id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
+          <img src={cardLive} alt="Online Cricket Betting ID interface on Khelo24Id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
           <div>
-            <h2 className="text-xl md:text-2xl font-bold mb-4">How to Bet on Live Cricket Matches Online</h2>
-            <p className="text-muted-foreground mb-4">Simply open WhatsApp, get your free cricket ID, deposit via UPI and start placing bets on live matches. It takes under 60 seconds to get started.</p>
+            <h2 className="text-xl md:text-2xl font-bold mb-4">What is a Cricket Betting ID?</h2>
+            <p className="text-muted-foreground mb-4">
+              A Cricket Betting ID is your unique login credential that gives you access to online betting platforms where you can place real money bets on live cricket matches — IPL, T20 World Cup, ODI series and much more.
+            </p>
+            <p className="text-muted-foreground mb-4">
+              Our Online Cricket Betting ID system is the fastest and most reliable in India. No lengthy processes, no unnecessary documents — register once and get your ID delivered to WhatsApp in just 5 minutes.
+            </p>
             <Button onClick={openWA} className="bg-gradient-gold text-gold-foreground font-bold">
               <MessageCircle className="h-4 w-4 mr-2" /> Get Cricket ID Now
             </Button>
           </div>
         </div>
 
-        <div className="grid sm:grid-cols-3 gap-4">
-          {TIPS.map((t) => (
-            <div key={t.title} className="p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all">
+        {/* Why Get ID from Khelo24Id */}
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">Why Get Your Cricket ID from Khelo24Id?</h2>
+        <div className="grid sm:grid-cols-3 gap-4 mb-14">
+          {FEATURES.map((f) => (
+            <div key={f.title} className="p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all">
               <div className="h-11 w-11 rounded-lg bg-primary/15 border border-primary/30 flex items-center justify-center mb-3">
-                <t.icon className="h-5 w-5 text-primary" />
+                <f.icon className="h-5 w-5 text-primary" />
               </div>
-              <h3 className="font-bold mb-1 text-sm">{t.title}</h3>
-              <p className="text-xs text-muted-foreground">{t.desc}</p>
+              <h3 className="font-bold mb-1">{f.title}</h3>
+              <p className="text-sm text-muted-foreground">{f.desc}</p>
             </div>
           ))}
         </div>
 
-        <div className="mt-10 max-w-3xl">
-          <h2 className="text-xl md:text-2xl font-bold mb-3">Your Complete Cricket Betting Guide</h2>
-          <p className="text-muted-foreground leading-relaxed mb-3">
-            Khelo24Id.live offers data-driven cricket predictions covering IPL, T20 World Cup, Asia Cup and all international matches. Get real-time betting tips powered by match analysis, pitch reports and player form data.
-          </p>
-          <p className="text-muted-foreground leading-relaxed">
-            Follow our step-by-step guides to start betting on live cricket matches. All transactions are encrypted and withdrawals are processed in under 5 minutes. Get your free cricket ID now via WhatsApp.
-          </p>
+        {/* Additional Features */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-14">
+          <div className="p-4 rounded-xl bg-card/50 border border-border">
+            <p className="font-bold">📱 Works on Any Device</p>
+            <p className="text-sm text-muted-foreground">Android or iPhone, desktop or mobile</p>
+          </div>
+          <div className="p-4 rounded-xl bg-card/50 border border-border">
+            <p className="font-bold">💰 Fast Withdrawal</p>
+            <p className="text-sm text-muted-foreground">Winnings transferred instantly to your UPI</p>
+          </div>
+          <div className="p-4 rounded-xl bg-card/50 border border-border">
+            <p className="font-bold">🔐 Bank-Level Security</p>
+            <p className="text-sm text-muted-foreground">256-bit SSL encryption keeps you protected</p>
+          </div>
+        </div>
+
+        {/* Which Matches */}
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">Which Cricket Matches Can You Bet On?</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-14">
+          {MATCHES.map((m) => (
+            <div key={m.name} className="p-4 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all">
+              <h3 className="font-bold text-primary mb-1">🏏 {m.name}</h3>
+              <p className="text-sm text-muted-foreground">{m.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="text-center p-8 rounded-2xl bg-primary/10 border border-primary/30">
+          <h2 className="text-xl font-bold mb-2">Ready to Start Betting?</h2>
+          <p className="text-muted-foreground mb-4">Get your Cricket Betting ID in just 5 minutes via WhatsApp!</p>
+          <Button onClick={openWA} size="lg" className="bg-gradient-gold text-gold-foreground font-bold">
+            <MessageCircle className="h-5 w-5 mr-2" /> Get Your Cricket ID Now
+          </Button>
         </div>
       </section>
 

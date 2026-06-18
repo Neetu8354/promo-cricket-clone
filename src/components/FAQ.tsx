@@ -1,18 +1,14 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const FAQS = [
-  { q: "How do I get my free Cricket ID?", a: "Click any 'Get ID on WhatsApp' button. Our agent will share your ID and password within 60 seconds. No registration forms or lengthy verification required for instant access." },
-  { q: "What is the minimum deposit?", a: "₹100 via UPI, IMPS or Net Banking. All transactions are in Indian Rupees (INR). We support all major UPI apps including PhonePe, Google Pay, Paytm, and BHIM." },
-  { q: "How fast are withdrawals?", a: "Withdrawals are processed in under 5 minutes directly to your bank account or UPI ID. We offer one of the fastest payout times in the industry with no hidden fees." },
-  { q: "Which cricket events are covered?", a: "IPL, T20 World Cup, ODI World Cup, BBL, PSL, CPL, Test matches and all major domestic tournaments. We also cover international bilateral series and emerging cricket leagues." },
-  { q: "How to play Aviator?", a: "Place your bet, watch the multiplier rise, and cash out before the plane crashes. The longer you wait, the higher the multiplier, but if you don't cash out in time, you lose your bet." },
-  { q: "Is customer support available 24/7?", a: "Yes, our WhatsApp chat support runs 24x7 in Hindi, English, Telugu and Tamil. Our trained support agents can help with deposits, withdrawals, game queries, and technical issues." },
-  { q: "Is online cricket betting legal in India?", a: "Online betting laws vary by state in India. We recommend checking your local regulations. Khelo24Id.live operates as an online gaming platform and encourages responsible gaming practices." },
-  { q: "What is Teen Patti and how do I play?", a: "Teen Patti is a popular Indian card game similar to poker. Players are dealt 3 cards and bet on who has the best hand. Rankings include Trail (three of a kind), Pure Sequence, Sequence, Color, Pair, and High Card." },
-  { q: "How do I verify my account?", a: "Account verification is done via WhatsApp. You may be asked to provide a valid government ID (Aadhaar/PAN) for withdrawals above certain limits. This ensures security and prevents fraud." },
-  { q: "What payment methods are accepted?", a: "We accept UPI (PhonePe, Google Pay, Paytm, BHIM), IMPS, NEFT, and Net Banking from all major Indian banks. All transactions are secure and encrypted." },
-  { q: "Can I play on mobile?", a: "Yes! Khelo24Id.live is fully optimized for mobile devices. You can play all games including cricket betting, Aviator, and Teen Patti directly from your smartphone browser without downloading any app." },
-  { q: "What is responsible gambling?", a: "Responsible gambling means playing for entertainment within your financial limits. Set deposit limits, take breaks, and never chase losses. If you feel gambling is affecting your life, please visit our Responsible Gambling page for help resources." },
+  { q: "How do I create an account on Khelo24Id?", a: "It's incredibly simple! Click the Register button on our website, enter your mobile number, verify with an OTP, and you're done. Your Cricket Betting ID will be delivered straight to your WhatsApp within 5 minutes." },
+  { q: "What is the minimum deposit amount?", a: "You can get started with as little as ₹100! We believe every player deserves to enjoy the thrill of gaming — whether you're a first-timer or a seasoned pro." },
+  { q: "How fast are withdrawals processed?", a: "Our withdrawals are among the fastest in India. Once you submit a withdrawal request, your money reaches your UPI, PhonePe, or Paytm account within 15–30 minutes — including on weekends!" },
+  { q: "Is Khelo24Id safe and secure?", a: "Absolutely. Khelo24Id.live uses 256-bit SSL encryption — the same technology used by major banks. Your personal data and financial transactions are completely protected at all times." },
+  { q: "Which payment methods are accepted?", a: "We support all major Indian payment methods: UPI, PhonePe, Google Pay, Paytm, IMPS, and Net Banking. Fast, easy, and completely free of transaction charges." },
+  { q: "How can I win at the Aviator game?", a: "Strategy is everything in Aviator. Smart players set a consistent cash-out target (like 1.5x or 2x) and stick to it for steady winnings. Use the Auto Cash Out feature and resist the temptation of chasing huge multipliers every round." },
+  { q: "How do I contact customer support?", a: "Our support team is available 24x7! Reach us via WhatsApp, live chat on the website, or email. We respond within minutes in both English and Hindi." },
+  { q: "Can I play on my mobile phone?", a: "Yes! Khelo24Id.live is fully optimized for mobile. No app download needed — simply open the website in your browser on any Android or iPhone and enjoy a seamless gaming experience." },
 ];
 
 const faqSchema = {

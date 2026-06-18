@@ -11,15 +11,22 @@ import aviatorImg from "@/assets/promo-arcade.jpg";
 import aviatorImg2 from "@/assets/card-roulette.jpg";
 
 const STEPS = [
-  { icon: Rocket, title: "Place Your Bet", desc: "Choose your bet amount before the plane takes off." },
-  { icon: Target, title: "Cash Out Smart", desc: "Watch the multiplier rise and cash out before it crashes." },
-  { icon: Gift, title: "Collect Rewards", desc: "Cash out at the right moment and collect your winnings instantly." },
+  { icon: Rocket, title: "Step 1: Set Your Bet", desc: "Log in to your Khelo24Id account and set your bet amount" },
+  { icon: Target, title: "Step 2: Watch & Decide", desc: "Watch the plane take off — keep your eye on the multiplier" },
+  { icon: Gift, title: "Step 3: Cash Out", desc: "Hit Cash Out at the right moment and collect your winnings!" },
+];
+
+const TIPS = [
+  { emoji: "🎯", text: "Use the Auto Cash Out feature — set your multiplier in advance and never miss" },
+  { emoji: "💡", text: "Start with small bets, understand the game, then scale up" },
+  { emoji: "📊", text: "Watch previous round patterns — they can guide your strategy" },
+  { emoji: "⚡", text: "Place two bets at once — one safe (1.5x) and one risky (10x+)" },
 ];
 
 const Aviator = () => {
   useSeo({
-    title: "Aviator Game Online India | Crash Game | Khelo24Id.live",
-    description: "Play Aviator crash game online at Khelo24Id.live. Watch multipliers rise, cash out before crash, and win big with instant withdrawals. 24x7 support available.",
+    title: "Aviator Game Online India | Play & Win at Khelo24Id.live",
+    description: "Play Aviator crash game at Khelo24Id! India's most thrilling online game — watch the multiplier rise and cash out at the perfect moment. Register now & claim your welcome bonus!",
     canonical: "/aviator",
   });
 
@@ -29,16 +36,30 @@ const Aviator = () => {
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Aviator" }]} />
       <section className="container py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
-          Aviator on <span className="text-gradient-gold">Khelo24Id.live</span>
+          Aviator Game — <span className="text-gradient-gold">Fly High, Cash Out Fast!</span>
         </h1>
-        <p className="text-muted-foreground max-w-2xl mb-10">The most exciting crash game — place your bet, watch the multiplier rise, and cash out before it crashes!</p>
+        <p className="text-lg text-muted-foreground max-w-3xl mb-10">
+          Every second is a decision. Every moment is a choice between greed and strategy. Welcome to Aviator — India's most addictive online crash game, now available at Khelo24Id.live with bigger thrills and faster payouts!
+        </p>
 
-        <div className="grid md:grid-cols-2 gap-4 mb-8">
+        <div className="grid md:grid-cols-2 gap-4 mb-10">
           <img src={aviatorImg} alt="Aviator crash game interface on Khelo24Id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
           <img src={aviatorImg2} alt="Aviator game multiplier display on Khelo24Id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
         </div>
 
-        <h2 className="text-xl md:text-2xl font-bold mb-6">How to Play Aviator</h2>
+        {/* What is Aviator */}
+        <div className="max-w-3xl mb-14">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">What is the Aviator Game?</h2>
+          <p className="text-muted-foreground leading-relaxed mb-4">
+            Aviator is a crash-style betting game where a plane takes off and a multiplier keeps rising — from 1x all the way to 100x or beyond! Your job is to decide when to cash out.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            The longer you wait, the bigger the multiplier — but if the plane crashes before you cash out, your bet is lost. That's the ultimate thrill of Aviator.
+          </p>
+        </div>
+
+        {/* How to Play */}
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">How to Play Aviator on Khelo24Id</h2>
         <div className="grid sm:grid-cols-3 gap-4 mb-14">
           {STEPS.map((s, i) => (
             <div key={s.title} className="p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all relative">
@@ -52,21 +73,29 @@ const Aviator = () => {
           ))}
         </div>
 
-        <div className="bg-card/50 border border-border rounded-2xl p-6 md:p-10 text-center max-w-2xl mx-auto mb-10">
-          <h3 className="text-lg md:text-xl font-bold mb-2">Play Aviator on Khelo24Id.live</h3>
-          <p className="text-muted-foreground text-sm mb-6">Use our live stats dashboard, set auto cash-out, and enjoy instant withdrawals. Play responsibly.</p>
+        {/* Winning Tips */}
+        <div className="bg-card/50 border border-border rounded-2xl p-6 md:p-8 mb-14">
+          <h2 className="text-xl md:text-2xl font-bold mb-2">Aviator Strategy Tips</h2>
+          <p className="text-muted-foreground mb-6">
+            🚀 Smart players set a safe target multiplier (like 1.5x or 2x) and cash out consistently. Controlling greed is the real winning strategy!
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {TIPS.map((tip, i) => (
+              <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-background/50">
+                <span className="text-xl">{tip.emoji}</span>
+                <p className="text-sm text-muted-foreground">{tip.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* CTA */}
+        <div className="text-center p-8 rounded-2xl bg-primary/10 border border-primary/30">
+          <h2 className="text-xl font-bold mb-2">Ready to Fly?</h2>
+          <p className="text-muted-foreground mb-4">Join thousands of players enjoying Aviator on Khelo24Id.live. Play responsibly.</p>
           <Button onClick={openWA} size="lg" className="bg-gradient-gold text-gold-foreground font-bold">
             <MessageCircle className="h-5 w-5 mr-2" /> Play Aviator Now
           </Button>
-        </div>
-
-        <div className="max-w-3xl mx-auto">
-          <p className="text-muted-foreground leading-relaxed mb-3">
-            Aviator is one of the most popular crash games in India. Khelo24Id.live offers real-time multiplier tracking, auto cash-out features, and provably fair gameplay.
-          </p>
-          <p className="text-muted-foreground leading-relaxed">
-            Whether you're a beginner or experienced player, enjoy Aviator on our mobile-friendly platform with instant withdrawals and 24x7 support. Remember to play responsibly.
-          </p>
         </div>
       </section>
 

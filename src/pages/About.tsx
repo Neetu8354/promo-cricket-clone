@@ -10,10 +10,17 @@ import { RelatedLinks } from "@/components/RelatedLinks";
 import aboutImg from "@/assets/promo-live.jpg";
 
 const FEATURES = [
-  { icon: ShieldCheck, title: "Secure Platform", desc: "Fully encrypted transactions with verified gameplay and data protection." },
-  { icon: Smartphone, title: "Mobile Optimized", desc: "Play on any device — our platform works seamlessly on phones and tablets." },
-  { icon: Zap, title: "Fast Payouts", desc: "Withdrawals processed in under 5 minutes directly to your bank via UPI." },
-  { icon: Headphones, title: "24x7 Support", desc: "Always available via WhatsApp in Hindi, English, Telugu & Tamil." },
+  { icon: ShieldCheck, title: "Built for India", desc: "UPI payments, Hindi support, Indian-favourite games" },
+  { icon: Zap, title: "Speed First", desc: "5-minute ID setup, instant withdrawals, zero delays" },
+  { icon: Smartphone, title: "Bank-Level Security", desc: "256-bit SSL encryption protecting every transaction" },
+  { icon: Headphones, title: "Real Human Support", desc: "24x7 live chat and WhatsApp support" },
+];
+
+const STATS = [
+  { value: "500,000+", label: "Happy Players" },
+  { value: "500+", label: "Games Available" },
+  { value: "5 Minutes", label: "ID Setup Time" },
+  { value: "24x7", label: "Customer Support" },
 ];
 
 const About = () => {
@@ -29,60 +36,71 @@ const About = () => {
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "About Us" }]} />
       <section className="container py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
-          About <span className="text-gradient-gold">Khelo24Id.live</span>
+          About Khelo24Id — <span className="text-gradient-gold">Built for India, Built for Winners</span>
         </h1>
+        <p className="text-lg text-muted-foreground max-w-3xl mb-10">
+          Khelo24Id.live was born from a simple but powerful idea — to create an online gaming platform that truly understands Indian players. No complicated processes, no hidden fees, no unnecessary waiting. Just pure gaming excitement, delivered with complete trust.
+        </p>
 
-        <div className="grid md:grid-cols-2 gap-10 mt-10">
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-14">
+          <img src={aboutImg} alt="Khelo24Id.live gaming platform interface" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
           <div>
-            <h2 className="text-xl md:text-2xl font-bold mb-3">Who We Are</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Khelo24Id.live is a modern online gaming platform built specifically for Indian players. We combine cutting-edge technology with a deep understanding of what Indian gamers need — fast transactions, local payment methods, and support in regional languages.
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              We know that in India, cricket is more than a sport — it's an emotion, a way of life. That's why we built a world-class cricket betting experience that still feels personal, local, and completely yours.
             </p>
-          </div>
-          <div>
-            <h2 className="text-xl md:text-2xl font-bold mb-3">Our Mission</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              To provide a secure, fair, and enjoyable gaming experience for every player. We believe in transparency, responsible gaming, and putting our users first. Every feature we build is designed to make your experience seamless.
-            </p>
+            <div className="p-4 rounded-xl bg-primary/10 border border-primary/30">
+              <h2 className="font-bold mb-2">Our Mission</h2>
+              <p className="text-sm text-muted-foreground italic">
+                "To give every Indian cricket fan and gaming enthusiast a safe, fast, and exciting platform where they can play without worry, win with confidence, and withdraw their earnings instantly."
+              </p>
+            </div>
           </div>
         </div>
 
-        <h2 className="text-2xl md:text-3xl font-black mt-14 mb-8">
-          Key <span className="text-gradient-gold">Features</span>
-        </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* What Sets Us Apart */}
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">What Sets Us Apart?</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-14">
           {FEATURES.map((f) => (
             <div key={f.title} className="p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all">
               <div className="h-11 w-11 rounded-lg bg-primary/15 border border-primary/30 flex items-center justify-center mb-3">
                 <f.icon className="h-5 w-5 text-primary" />
               </div>
-              <h3 className="font-bold mb-1 text-sm">{f.title}</h3>
-              <p className="text-xs text-muted-foreground">{f.desc}</p>
+              <h3 className="font-bold mb-1">{f.title}</h3>
+              <p className="text-sm text-muted-foreground">{f.desc}</p>
             </div>
           ))}
         </div>
 
-        <div className="mt-12">
-          <img src={aboutImg} alt="best betting platform in india. Join now and play fast khelo24id.live" className="rounded-xl border border-border w-full max-w-3xl mx-auto aspect-video object-cover mb-8" loading="lazy" />
-
-          <div className="max-w-3xl mx-auto mb-8">
-            <h2 className="text-xl md:text-2xl font-bold mb-3">Why Choose Khelo24Id.live</h2>
-            <p className="text-muted-foreground leading-relaxed mb-3">
-              We offer a complete gaming experience tailored for Indian players. From live cricket betting during IPL and international matches to popular games like Aviator and Teen Patti, everything is designed with you in mind.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-3">
-              Our platform supports instant UPI deposits from all major apps including PhonePe, Google Pay, and Paytm. Withdrawals are processed in under 5 minutes directly to your bank account — no waiting, no hidden fees.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Getting started is simple: message us on WhatsApp, receive your free ID within 60 seconds, and start playing. Our support team is available 24x7 in Hindi, English, Telugu, and Tamil.
-            </p>
+        {/* Additional Features */}
+        <div className="grid sm:grid-cols-2 gap-4 mb-14">
+          <div className="p-4 rounded-xl bg-card/50 border border-border">
+            <p className="font-bold">🎯 Certified Fair Play</p>
+            <p className="text-sm text-muted-foreground">RNG certified games — no manipulation, ever</p>
           </div>
-
-          <div className="text-center">
-            <Button onClick={openWA} size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold">
-              <MessageCircle className="h-5 w-5 mr-2" /> Join Now on WhatsApp
-            </Button>
+          <div className="p-4 rounded-xl bg-card/50 border border-border">
+            <p className="font-bold">🎁 Player Rewards</p>
+            <p className="text-sm text-muted-foreground">Daily bonuses, VIP perks, and loyalty rewards</p>
           </div>
+        </div>
+
+        {/* Stats */}
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Numbers Speak for Themselves</h2>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-14">
+          {STATS.map((s) => (
+            <div key={s.label} className="p-6 rounded-xl bg-card/50 border border-border text-center">
+              <p className="text-2xl md:text-3xl font-black text-primary">{s.value}</p>
+              <p className="text-sm text-muted-foreground">{s.label}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="text-center p-8 rounded-2xl bg-primary/10 border border-primary/30">
+          <h2 className="text-xl font-bold mb-2">Ready to Join?</h2>
+          <p className="text-muted-foreground mb-4">Experience the Khelo24Id difference today!</p>
+          <Button onClick={openWA} size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold">
+            <MessageCircle className="h-5 w-5 mr-2" /> Join Now on WhatsApp
+          </Button>
         </div>
       </section>
 

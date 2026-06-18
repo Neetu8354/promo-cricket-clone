@@ -9,10 +9,28 @@ import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import cardTeen from "@/assets/card-teenpatti.jpg";
 
+const FEATURES = [
+  { emoji: "🃏", title: "Multiple Variants", desc: "Classic, Joker, Muflis, AK47 and many more" },
+  { emoji: "👨‍💼", title: "Live Dealers", desc: "Real human dealers for an authentic casino experience" },
+  { emoji: "💬", title: "Hindi & English Support", desc: "Play comfortably in the language you prefer" },
+  { emoji: "📱", title: "Mobile-Optimized", desc: "Play anywhere, anytime on any device" },
+  { emoji: "💰", title: "Real Money Winnings", desc: "Cash out instantly to your UPI" },
+  { emoji: "🎁", title: "Daily Bonuses", desc: "New rewards every single day" },
+];
+
+const HAND_RANKINGS = [
+  { rank: "👑", name: "Trail (Three of a Kind)", desc: "Three cards of the same rank — the most powerful hand" },
+  { rank: "🔥", name: "Pure Sequence", desc: "Three consecutive cards of the same suit" },
+  { rank: "✨", name: "Sequence", desc: "Three consecutive cards of mixed suits" },
+  { rank: "🎯", name: "Color", desc: "Three cards of the same suit, not in sequence" },
+  { rank: "💪", name: "Pair", desc: "Two cards of the same rank" },
+  { rank: "🃏", name: "High Card", desc: "No combination — highest card decides the winner" },
+];
+
 const TeenPatti = () => {
   useSeo({
-    title: "Teen Patti Online India | Real Money Card Game | Khelo24Id.live",
-    description: "Play Teen Patti online at Khelo24Id.live with live dealers. India's favourite 3-card poker game with instant UPI deposits and fast withdrawals under 5 minutes.",
+    title: "Teen Patti Online Real Money | Play Live Teen Patti – Khelo24Id",
+    description: "Play Teen Patti online with real money at Khelo24Id.live! Enjoy live dealers, multiple game variants & instant UPI withdrawals. India's most trusted Teen Patti platform. Join now!",
     canonical: "/teen-patti",
   });
 
@@ -22,31 +40,50 @@ const TeenPatti = () => {
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Teen Patti" }]} />
       <section className="container py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
-          Teen Patti on <span className="text-gradient-gold">Khelo24Id.live</span>
+          Teen Patti Online — <span className="text-gradient-gold">India's Favourite Card Game, Now With Real Money!</span>
         </h1>
-        <p className="text-muted-foreground max-w-2xl mb-10">India's favourite card game — play live with real dealers, 24/7 in INR.</p>
+        <p className="text-lg text-muted-foreground max-w-3xl mb-10">
+          From festive nights to casual evenings, Teen Patti has always been the heartbeat of Indian gaming culture. Now at Khelo24Id.live, experience the same excitement 24x7 — with real money, live dealers, and the authentic feel of your favourite card game right on your phone!
+        </p>
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-14">
-          <img src={cardTeen} alt="bet on gameplay interface with khelo24id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
+          <img src={cardTeen} alt="Teen Patti online game interface on Khelo24Id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
           <div>
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Rules and Strategies</h2>
-            <p className="text-muted-foreground mb-3">Teen Patti is a 3-card poker game. Each player gets three cards, and the goal is to have the best hand. Rankings go from Trail (three of a kind) at the top to High Card at the bottom.</p>
-            <h3 className="font-bold mb-2 text-sm">Bet on Gameplay Interface with Khelo24Id.live</h3>
-            <p className="text-muted-foreground text-sm mb-4">Our smooth interface lets you place bets quickly, view live dealer cards, and track your winnings in real time.</p>
-            <Button onClick={openWA} className="bg-gradient-gold text-gold-foreground font-bold">
-              <MessageCircle className="h-4 w-4 mr-2" /> Play Teen Patti Now
-            </Button>
+            <h2 className="text-xl md:text-2xl font-bold mb-4">Why Play Teen Patti at Khelo24Id?</h2>
+            <div className="grid grid-cols-2 gap-3">
+              {FEATURES.map((f) => (
+                <div key={f.title} className="p-3 rounded-lg bg-card/50 border border-border">
+                  <p className="font-bold text-sm">{f.emoji} {f.title}</p>
+                  <p className="text-xs text-muted-foreground">{f.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
-        <div className="max-w-3xl">
-          <h2 className="text-xl md:text-2xl font-bold mb-3">Play Teen Patti on Khelo24Id.live</h2>
-          <p className="text-muted-foreground leading-relaxed mb-3">
-            Play Teen Patti online with live dealers on Khelo24Id.live. Enjoy instant deposits via UPI and fast withdrawals so you never have to wait for your winnings.
-          </p>
-          <p className="text-muted-foreground leading-relaxed">
-            Our mobile-friendly platform is available 24/7 in Hindi, English, Telugu and Tamil. Get your free ID via WhatsApp and access all games including Teen Patti, Andar Bahar, and more.
-          </p>
+        {/* Hand Rankings */}
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">Teen Patti Hand Rankings — Quick Guide</h2>
+        <p className="text-muted-foreground mb-6">In Teen Patti, each player receives three cards. The strongest hand wins. Here are the hand rankings from highest to lowest:</p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-14">
+          {HAND_RANKINGS.map((h, i) => (
+            <div key={h.name} className="p-4 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-2xl">{h.rank}</span>
+                <span className="text-xs text-muted-foreground">#{i + 1}</span>
+              </div>
+              <h3 className="font-bold mb-1">{h.name}</h3>
+              <p className="text-sm text-muted-foreground">{h.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA */}
+        <div className="text-center p-8 rounded-2xl bg-primary/10 border border-primary/30">
+          <h2 className="text-xl font-bold mb-2">Ready to Play?</h2>
+          <p className="text-muted-foreground mb-4">Join thousands of players enjoying Teen Patti on Khelo24Id.live!</p>
+          <Button onClick={openWA} size="lg" className="bg-gradient-gold text-gold-foreground font-bold">
+            <MessageCircle className="h-5 w-5 mr-2" /> Play Teen Patti Now
+          </Button>
         </div>
       </section>
 
