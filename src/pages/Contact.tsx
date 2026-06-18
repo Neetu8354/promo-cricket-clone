@@ -48,8 +48,16 @@ const Contact = () => {
         </div>
 
         <div className="max-w-2xl mb-10">
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            Need help with your <strong className="text-foreground">khelo24id online platform</strong> account? Whether it's about <strong className="text-foreground">live cricket betting</strong>, <strong className="text-foreground">Aviator crash game</strong>, <strong className="text-foreground">Teen Patti online</strong>, deposits, or <strong className="text-foreground">fast withdrawal betting</strong> — our team is available 24x7 on WhatsApp. We're proud to be among the <strong className="text-foreground">safe online sports betting websites 2026</strong> with dedicated multilingual support.
+          <h2 className="text-xl font-bold mb-3">How Can We Help?</h2>
+          <ul className="text-sm text-muted-foreground space-y-2">
+            <li>• Account login and registration issues</li>
+            <li>• Deposit and withdrawal assistance</li>
+            <li>• Game rules and betting queries</li>
+            <li>• Technical support and troubleshooting</li>
+            <li>• Responsible gambling tools and self-exclusion</li>
+          </ul>
+          <p className="text-sm text-muted-foreground mt-4">
+            Our support team speaks Hindi, English, Telugu, and Tamil. Average response time is under 2 minutes.
           </p>
         </div>
 

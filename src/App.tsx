@@ -23,6 +23,8 @@ import Contact from "./pages/Contact.tsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 import TermsAndConditions from "./pages/TermsAndConditions.tsx";
 import ResponsibleGambling from "./pages/ResponsibleGambling.tsx";
+import PaymentMethods from "./pages/PaymentMethods.tsx";
+import EditorialPolicy from "./pages/EditorialPolicy.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -54,6 +56,8 @@ const App = () => (
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/responsible-gambling" element={<ResponsibleGambling />} />
+          <Route path="/payment-methods" element={<PaymentMethods />} />
+          <Route path="/editorial-policy" element={<EditorialPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
