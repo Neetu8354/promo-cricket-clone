@@ -22,33 +22,10 @@ const Cricket = () => {
     canonical: "/cricket",
   });
 
-  const sportsEventSchema = {
-    "@context": "https://schema.org",
-    "@type": "SportsEvent",
-    name: "Live Cricket Betting on Khelo24Id.live",
-    description: "Bet on live cricket matches online including IPL, T20 World Cup, ODI and all major tournaments with the best odds.",
-    url: "https://khelo24id.live/cricket",
-    location: {
-      "@type": "VirtualLocation",
-      url: "https://khelo24id.live/cricket",
-    },
-    organizer: {
-      "@type": "Organization",
-      name: "Khelo24Id.live",
-      url: "https://khelo24id.live",
-    },
-    sport: "Cricket",
-    eventAttendanceMode: "https://schema.org/OnlineEventAttendanceMode",
-  };
-
   return (
     <main>
       <Header />
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Cricket Betting" }]} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(sportsEventSchema) }}
-      />
       <section className="container py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
           Live Cricket Betting on <span className="text-gradient-gold">Khelo24Id.live</span>
@@ -81,10 +58,10 @@ const Cricket = () => {
         <div className="mt-10 max-w-3xl">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Your Complete Cricket Betting Guide</h2>
           <p className="text-muted-foreground leading-relaxed mb-3">
-            Khelo24Id.live is among the <strong className="text-foreground">best cricket prediction sites online</strong> where you get <strong className="text-foreground">live cricket betting tips online</strong> powered by data-driven analysis. Our <strong className="text-foreground">khelo24id online platform</strong> covers IPL, T20 World Cup, Asia Cup and all international matches with the best odds.
+            Khelo24Id.live offers data-driven cricket predictions covering IPL, T20 World Cup, Asia Cup and all international matches. Get real-time betting tips powered by match analysis, pitch reports and player form data.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            Learn <strong className="text-foreground">how to bet on live cricket matches online</strong> with our step-by-step guides and start winning today. As a <strong className="text-foreground">safe online sports betting website</strong>, we ensure every transaction is encrypted and withdrawals are processed in under 5 minutes. Get your <strong className="text-foreground">free cricket ID</strong> now and experience the best <strong className="text-foreground">sports betting platform online</strong>.
+            Follow our step-by-step guides to start betting on live cricket matches. All transactions are encrypted and withdrawals are processed in under 5 minutes. Get your free cricket ID now via WhatsApp.
           </p>
         </div>
       </section>
