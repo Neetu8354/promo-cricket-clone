@@ -4,7 +4,6 @@ interface SeoProps {
   title: string;
   description: string;
   canonical: string; // path like "/about"
-  keywords?: string;
   ogImage?: string;
 }
 
@@ -12,7 +11,7 @@ const SITE = "https://www.khelo24id.live";
 const SITE_NAME = "Khelo24Id.live";
 const DEFAULT_OG_IMAGE = `${SITE}/og-image.jpg`;
 
-export function useSeo({ title, description, canonical, keywords, ogImage }: SeoProps) {
+export function useSeo({ title, description, canonical, ogImage }: SeoProps) {
   useEffect(() => {
     document.title = title;
 
@@ -28,7 +27,10 @@ export function useSeo({ title, description, canonical, keywords, ogImage }: Seo
 
     // Basic meta
     setMeta("name", "description", description);
-    if (keywords) setMeta("name", "keywords", keywords);
+
+    // Remove any existing keywords meta tag (spam signal for Google)
+    const existingKeywords = document.querySelector('meta[name="keywords"]');
+    if (existingKeywords) existingKeywords.remove();
 
     // Canonical
     let canon = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
@@ -54,5 +56,5 @@ export function useSeo({ title, description, canonical, keywords, ogImage }: Seo
     setMeta("name", "twitter:title", title);
     setMeta("name", "twitter:description", description);
     setMeta("name", "twitter:image", img);
-  }, [title, description, canonical, keywords, ogImage]);
+  }, [title, description, canonical, ogImage]);
 }
