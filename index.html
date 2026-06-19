@@ -9,24 +9,7 @@
     <meta name="author" content="Khelo24Id.live" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="google-site-verification" content="svFdWU5-t3ik0ZkS0FfPQGOmpsmYuH0ntf_lI8iSX0A" />
-    <!-- Dynamic canonical tag based on current URL path -->
     <link rel="canonical" href="https://www.khelo24id.live/" />
-    <script>
-      (function(){
-        var defined = {
-          '/': '/', '/cricket': '/cricket', '/aviator': '/aviator', '/teen-patti': '/teen-patti',
-          '/about': '/about', '/contact': '/contact', '/blog': '/blog', '/privacy-policy': '/privacy-policy',
-          '/terms-and-conditions': '/terms-and-conditions', '/responsible-gambling': '/responsible-gambling',
-          '/payment-methods': '/payment-methods', '/editorial-policy': '/editorial-policy'
-        };
-        var path = window.location.pathname.replace(/\/$/, '') || '/';
-        var canonical = defined[path] || (path.startsWith('/blog/') ? path : '/');
-        var fullUrl = 'https://www.khelo24id.live' + canonical;
-        document.querySelector('link[rel="canonical"]').href = fullUrl;
-        var ogUrl = document.querySelector('meta[property="og:url"]');
-        if (ogUrl) ogUrl.content = fullUrl;
-      })();
-    </script>
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/favicon.png" />
     <meta name="theme-color" content="#0b1020" />
