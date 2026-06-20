@@ -56,6 +56,46 @@ const PAGES = {
   '/editorial-policy': {
     title: 'Editorial Policy | Content Standards | Khelo24Id.live',
     description: 'Read Khelo24Id.live\'s editorial policy. Learn about our content standards, accuracy commitment, responsible gambling messaging, and how we maintain trust.'
+  },
+  '/blog/how-to-login-khelo24id': {
+    title: 'How to Login Khelo24Id | Step by Step Guide 2026',
+    description: 'Complete step-by-step guide on how to login to Khelo24Id.live. Get your cricket betting ID via WhatsApp and start playing in under 60 seconds.'
+  },
+  '/blog/live-cricket-betting-tips-online': {
+    title: 'Live Cricket Betting Tips Online 2026 | Khelo24Id.live',
+    description: 'Get the best live cricket betting tips online for 2026. Expert predictions, match analysis and winning strategies on Khelo24Id.live.'
+  },
+  '/blog/best-cricket-prediction-sites-online': {
+    title: 'Best Cricket Prediction Sites Online 2026 | Khelo24Id.live',
+    description: 'Find the best cricket prediction sites online in 2026. Khelo24Id.live offers ML-powered predictions, live odds and expert analysis.'
+  },
+  '/blog/how-to-bet-on-live-cricket-matches-online': {
+    title: 'How to Bet on Live Cricket Matches Online 2026 | Khelo24Id.live',
+    description: 'Learn how to bet on live cricket matches online in 2026. Complete guide to live cricket betting on Khelo24Id.live with best odds.'
+  },
+  '/blog/best-online-sports-betting-platform-for-beginners': {
+    title: 'Best Online Sports Betting Platform for Beginners 2026 | Khelo24Id.live',
+    description: 'Discover the best online sports betting platform for beginners in 2026. Khelo24Id.live offers easy signup, free cricket ID and 24x7 support.'
+  },
+  '/blog/how-to-join-online-sports-gaming-website': {
+    title: 'How to Join Online Sports Gaming Website 2026 | Khelo24Id.live',
+    description: 'Complete guide on how to join online sports gaming website Khelo24Id.live. Get free cricket ID, deposit via UPI, and start playing instantly.'
+  },
+  '/blog/how-sports-betting-platforms-work-online': {
+    title: 'How Sports Betting Platforms Work Online 2026 | Khelo24Id.live',
+    description: 'Learn how sports betting platforms work online. Understand odds, deposits, withdrawals and gameplay on Khelo24Id.live.'
+  },
+  '/blog/safe-online-sports-betting-websites-2026': {
+    title: 'Safe Online Sports Betting Websites 2026 | Khelo24Id.live',
+    description: 'Discover safe online sports betting websites in 2026. Khelo24Id.live offers secure transactions, verified gameplay and fast withdrawals.'
+  },
+  '/blog/mobile-friendly-sports-betting-platforms': {
+    title: 'Mobile Friendly Sports Betting Platforms 2026 | Khelo24Id.live',
+    description: 'Discover the best mobile friendly sports betting platforms in 2026. Khelo24Id.live works perfectly on all phones with no app download needed.'
+  },
+  '/blog/how-to-use-khelo24id-online': {
+    title: 'How to Use Khelo24Id Online | Complete Guide 2026',
+    description: 'Learn how to use khelo24id online platform. Step by step guide to access the best online sports gaming platform and start playing instantly.'
   }
 };
 
