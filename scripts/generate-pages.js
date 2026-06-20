@@ -99,6 +99,59 @@ const PAGES = {
   }
 };
 
+const BLOG_POSTS = [
+  { slug: "/blog/how-to-login-khelo24id", title: "How to Login Khelo24Id Step by Step Guide 2026", desc: "Complete step by step guide on how to login khelo24id with username." },
+  { slug: "/blog/how-to-use-khelo24id-online", title: "How to Use Khelo24Id Online — Complete Guide", desc: "Learn how to use khelo24id online platform and start playing instantly." },
+  { slug: "/blog/best-online-sports-betting-platform-for-beginners", title: "Best Online Sports Betting Platform for Beginners 2026", desc: "India's easiest platform with free ID, fast payouts and 24x7 support." },
+  { slug: "/blog/how-to-join-online-sports-gaming-website", title: "How to Join Online Sports Gaming Website", desc: "Get free cricket ID, deposit via UPI, and start playing instantly." },
+  { slug: "/blog/live-cricket-betting-tips-online", title: "Live Cricket Betting Tips Online 2026", desc: "Expert predictions, match analysis and winning strategies." },
+  { slug: "/blog/how-sports-betting-platforms-work-online", title: "How Sports Betting Platforms Work Online", desc: "Understand odds, deposits, withdrawals and gameplay." },
+  { slug: "/blog/safe-online-sports-betting-websites-2026", title: "Safe Online Sports Betting Websites 2026", desc: "Secure transactions, verified gameplay and fast withdrawals." },
+  { slug: "/blog/best-cricket-prediction-sites-online", title: "Best Cricket Prediction Sites Online 2026", desc: "ML-powered predictions, live odds and expert analysis." },
+  { slug: "/blog/how-to-bet-on-live-cricket-matches-online", title: "How to Bet on Live Cricket Matches Online", desc: "Complete guide to live cricket betting with best odds." },
+  { slug: "/blog/mobile-friendly-sports-betting-platforms", title: "Mobile Friendly Sports Betting Platforms 2026", desc: "Works perfectly on all phones with no app download needed." },
+];
+
+const BLOG_FAQ_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    { "@type": "Question", name: "What kind of betting guides are available on the Khelo24Id blog?", acceptedAnswer: { "@type": "Answer", text: "Our blog covers cricket betting tips, Aviator strategies, Teen Patti guides, platform tutorials, and expert advice for Indian players. Every article is written in simple language to help beginners and experienced players alike." } },
+    { "@type": "Question", name: "How often are new blog articles published?", acceptedAnswer: { "@type": "Answer", text: "We publish fresh betting guides and cricket match tips regularly, especially during major events like IPL, T20 World Cup, and ODI World Cup. Subscribe to stay updated with the latest strategies." } },
+    { "@type": "Question", name: "Are the cricket betting tips on the blog reliable?", acceptedAnswer: { "@type": "Answer", text: "Yes, our cricket tips are based on team form, pitch reports, player stats, and historical data. While no prediction is guaranteed, our analysis helps you make more informed betting decisions." } },
+    { "@type": "Question", name: "Can beginners learn how to bet from the blog?", acceptedAnswer: { "@type": "Answer", text: "Absolutely. We have beginner-friendly guides like how to login, how to join, how to deposit, and how to place your first cricket bet. Each guide includes step-by-step instructions." } },
+    { "@type": "Question", name: "Is the blog content free to read?", acceptedAnswer: { "@type": "Answer", text: "Yes, all blog articles on Khelo24Id.live are completely free. You can read betting tips, game strategies, and platform guides without any registration or payment." } },
+    { "@type": "Question", name: "How do I get my Cricket Betting ID after reading the blog?", acceptedAnswer: { "@type": "Answer", text: "Simply click the 'Get ID on WhatsApp' button on our website. Our support team will create your Cricket Betting ID and send it to your WhatsApp within 5 minutes." } },
+  ]
+};
+
+const BLOG_LISTING_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  name: "Khelo24Id.live Blog",
+  url: `${SITE}/blog`,
+  description: "Expert cricket betting tips, Aviator strategies, and step-by-step guides for Indian players.",
+  inLanguage: "en-IN",
+  publisher: {
+    "@type": "Organization",
+    name: "Khelo24Id.live",
+    url: SITE,
+    logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` }
+  },
+  blogPost: BLOG_POSTS.map(post => ({
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.desc,
+    url: `${SITE}${post.slug}`,
+    image: `${SITE}/og-image.jpg`,
+    datePublished: "2026-01-15",
+    dateModified: "2026-05-01",
+    author: { "@type": "Organization", name: "Khelo24Id.live", url: SITE },
+    publisher: { "@type": "Organization", name: "Khelo24Id.live", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` } },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}${post.slug}` }
+  }))
+};
+
 // Read the base index.html
 const indexHtml = fs.readFileSync(path.join(DIST_DIR, 'index.html'), 'utf8');
 
@@ -155,6 +208,38 @@ for (const [route, meta] of Object.entries(PAGES)) {
     /<meta name="twitter:description" content="[^"]*"/,
     `<meta name="twitter:description" content="${meta.description}"`
   );
+  
+  // For /blog page, inject Blog schema and Blog FAQ schema
+  if (route === '/blog') {
+    const blogSchemaScript = `<script type="application/ld+json">\n${JSON.stringify(BLOG_LISTING_SCHEMA, null, 2)}\n</script>`;
+    const blogFaqScript = `<script type="application/ld+json">\n${JSON.stringify(BLOG_FAQ_SCHEMA, null, 2)}\n</script>`;
+    html = html.replace(
+      '</head>',
+      `${blogSchemaScript}\n    ${blogFaqScript}\n</head>`
+    );
+  }
+  
+  // For individual blog pages, inject BlogPosting schema
+  if (route.startsWith('/blog/')) {
+    const blogPostSchema = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: meta.title,
+      description: meta.description,
+      url: canonicalUrl,
+      image: `${SITE}/og-image.jpg`,
+      datePublished: "2026-01-15",
+      dateModified: "2026-05-01",
+      author: { "@type": "Organization", name: "Khelo24Id.live", url: SITE },
+      publisher: { "@type": "Organization", name: "Khelo24Id.live", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` } },
+      mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl }
+    };
+    const blogPostScript = `<script type="application/ld+json">\n${JSON.stringify(blogPostSchema, null, 2)}\n</script>`;
+    html = html.replace(
+      '</head>',
+      `${blogPostScript}\n</head>`
+    );
+  }
   
   // Create directory and write file
   const dirPath = path.join(DIST_DIR, route);

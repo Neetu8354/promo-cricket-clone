@@ -7,7 +7,7 @@ interface BlogSchemaProps {
   image?: string;
 }
 
-const SITE = "https://khelo24id.live";
+const SITE = "https://www.khelo24id.live";
 
 export const BlogPostingSchema = ({
   title,
