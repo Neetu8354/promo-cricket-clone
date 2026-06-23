@@ -8,6 +8,8 @@ import { useSeo } from "@/hooks/use-seo";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { BlogPostingSchema } from "@/components/BlogPostingSchema";
+import heroImg from "@/assets/1.jpeg";
+import marketsImg from "@/assets/2.jpeg";
 
 const SLUG = "/blog/cricket-betting-id-india";
 
@@ -38,7 +40,7 @@ const BlogCricketBettingId = () => {
         </h1>
 
         <img
-          src="/blog-cricket-betting-id-hero.jpg"
+          src={heroImg}
           alt="Smartphone showing live cricket session betting app with instant ₹25,000 withdrawal confirmation on Khelo24Id"
           className="rounded-xl border border-border w-full aspect-video object-cover mb-8"
           loading="eager"
@@ -144,7 +146,7 @@ const BlogCricketBettingId = () => {
         </section>
 
         <img
-          src="/blog-cricket-betting-id-markets.jpg"
+          src={marketsImg}
           alt="Cricket betting app showing match winner, top batsman and session markets with a Get Free ID button on Khelo24Id"
           className="rounded-xl border border-border w-full aspect-video object-cover mb-10"
           loading="lazy"
