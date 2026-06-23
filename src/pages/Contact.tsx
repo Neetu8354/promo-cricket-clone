@@ -7,11 +7,12 @@ import { MessageCircle, Headphones, MessagesSquare } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import ContactFAQ from "@/components/ContactFAQ";
 
 const Contact = () => {
   useSeo({
     title: "Contact Us – Khelo24Id.live | 24x7 Support",
-    description: "Get 24x7 support for login, deposits, withdrawals and games on Khelo24Id.live.",
+    description: "Contact Khelo24Id for 24x7 WhatsApp support in Hindi, English, Telugu & Tamil. Get help with your cricket betting ID, deposits, withdrawals and more.",
     canonical: "/contact",
   });
 
@@ -67,6 +68,8 @@ const Contact = () => {
           </Button>
         </div>
       </section>
+
+      <ContactFAQ />
 
       <RelatedLinks links={[{ to: "/about", label: "About Khelo24Id.live" }, { to: "/blog/how-to-login-khelo24id", label: "How to Login — Step by Step" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Game" }]} />
       <Footer />
