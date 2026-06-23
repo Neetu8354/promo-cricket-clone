@@ -47,7 +47,8 @@ export function useSeo({ title, description, canonical, ogImage }: SeoProps) {
     setMeta("property", "og:description", description);
     setMeta("property", "og:url", SITE + canonical);
     setMeta("property", "og:image", img);
-    setMeta("property", "og:type", "website");
+    const ogType = canonical.startsWith("/blog/") ? "article" : "website";
+    setMeta("property", "og:type", ogType);
     setMeta("property", "og:site_name", SITE_NAME);
     setMeta("property", "og:locale", "en_IN");
 

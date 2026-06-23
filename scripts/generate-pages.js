@@ -231,9 +231,26 @@ for (const [route, meta] of Object.entries(PAGES)) {
     );
   }
   
+  // For individual blog pages, fix og:type and og:image in static HTML
+  if (route.startsWith('/blog/') && route !== '/blog') {
+    html = html.replace(
+      /<meta property="og:type" content="[^"]*"/,
+      `<meta property="og:type" content="article"`
+    );
+  }
+
   // For individual blog pages, inject BlogPosting schema
   if (route.startsWith('/blog/')) {
     const postMeta = BLOG_POSTS.find(p => p.slug === route) || {};
+    const postImage = postMeta.image || `${SITE}/og-image.jpg`;
+    html = html.replace(
+      /<meta property="og:image" content="[^"]*"/,
+      `<meta property="og:image" content="${postImage}"`
+    );
+    html = html.replace(
+      /<meta name="twitter:image" content="[^"]*"/,
+      `<meta name="twitter:image" content="${postImage}"`
+    );
     const blogPostSchema = {
       "@context": "https://schema.org",
       "@type": "BlogPosting",

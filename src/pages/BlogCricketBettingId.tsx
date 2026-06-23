@@ -8,16 +8,16 @@ import { useSeo } from "@/hooks/use-seo";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { BlogPostingSchema } from "@/components/BlogPostingSchema";
-import heroImg from "@/assets/1.jpeg";
-import marketsImg from "@/assets/2.jpeg";
 
 const SLUG = "/blog/cricket-betting-id-india";
+const HERO_IMG = "https://www.khelo24id.live/blog-cricket-betting-id-hero.jpg";
 
 const BlogCricketBettingId = () => {
   useSeo({
     title: "Cricket Betting ID India – Free ID & Fast Payouts | Khelo24Id",
     description: "Get a free cricket betting ID in India on Khelo24Id. Bet on IPL, T20 World Cup & more. ₹100 min deposit, withdrawals in under 5 mins, 24x7 WhatsApp support.",
     canonical: SLUG,
+    ogImage: HERO_IMG,
   });
 
   return (
@@ -40,7 +40,7 @@ const BlogCricketBettingId = () => {
         </h1>
 
         <img
-          src={heroImg}
+          src="/blog-cricket-betting-id-hero.jpg"
           alt="Smartphone showing live cricket session betting app with instant ₹25,000 withdrawal confirmation on Khelo24Id"
           className="rounded-xl border border-border w-full aspect-video object-cover mb-8"
           loading="eager"
@@ -146,7 +146,7 @@ const BlogCricketBettingId = () => {
         </section>
 
         <img
-          src={marketsImg}
+          src="/blog-cricket-betting-id-markets.jpg"
           alt="Cricket betting app showing match winner, top batsman and session markets with a Get Free ID button on Khelo24Id"
           className="rounded-xl border border-border w-full aspect-video object-cover mb-10"
           loading="lazy"
