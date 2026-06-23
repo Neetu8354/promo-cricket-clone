@@ -99,17 +99,24 @@ const PAGES = {
   }
 };
 
+const AUTHOR = {
+  "@type": "Person",
+  name: "Rahul Sharma",
+  jobTitle: "Senior Cricket Betting Analyst",
+  url: `${SITE}/about`,
+};
+
 const BLOG_POSTS = [
-  { slug: "/blog/how-to-login-khelo24id", title: "How to Login Khelo24Id Step by Step Guide 2026", desc: "Complete step by step guide on how to login khelo24id with username." },
-  { slug: "/blog/how-to-use-khelo24id-online", title: "How to Use Khelo24Id Online — Complete Guide", desc: "Learn how to use khelo24id online platform and start playing instantly." },
-  { slug: "/blog/best-online-sports-betting-platform-for-beginners", title: "Best Online Sports Betting Platform for Beginners 2026", desc: "India's easiest platform with free ID, fast payouts and 24x7 support." },
-  { slug: "/blog/how-to-join-online-sports-gaming-website", title: "How to Join Online Sports Gaming Website", desc: "Get free cricket ID, deposit via UPI, and start playing instantly." },
-  { slug: "/blog/live-cricket-betting-tips-online", title: "Live Cricket Betting Tips Online 2026", desc: "Expert predictions, match analysis and winning strategies." },
-  { slug: "/blog/how-sports-betting-platforms-work-online", title: "How Sports Betting Platforms Work Online", desc: "Understand odds, deposits, withdrawals and gameplay." },
-  { slug: "/blog/safe-online-sports-betting-websites-2026", title: "Safe Online Sports Betting Websites 2026", desc: "Secure transactions, verified gameplay and fast withdrawals." },
-  { slug: "/blog/best-cricket-prediction-sites-online", title: "Best Cricket Prediction Sites Online 2026", desc: "ML-powered predictions, live odds and expert analysis." },
-  { slug: "/blog/how-to-bet-on-live-cricket-matches-online", title: "How to Bet on Live Cricket Matches Online", desc: "Complete guide to live cricket betting with best odds." },
-  { slug: "/blog/mobile-friendly-sports-betting-platforms", title: "Mobile Friendly Sports Betting Platforms 2026", desc: "Works perfectly on all phones with no app download needed." },
+  { slug: "/blog/how-to-login-khelo24id",                          title: "How to Login Khelo24Id Step by Step Guide 2026",              desc: "Complete step by step guide on how to login khelo24id with username.",              datePublished: "2026-01-10", dateModified: "2026-05-12", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/how-to-use-khelo24id-online",                     title: "How to Use Khelo24Id Online — Complete Guide",                desc: "Learn how to use khelo24id online platform and start playing instantly.",            datePublished: "2026-01-18", dateModified: "2026-05-15", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/best-online-sports-betting-platform-for-beginners", title: "Best Online Sports Betting Platform for Beginners 2026",    desc: "India's easiest platform with free ID, fast payouts and 24x7 support.",             datePublished: "2026-02-03", dateModified: "2026-05-18", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/how-to-join-online-sports-gaming-website",        title: "How to Join Online Sports Gaming Website",                   desc: "Get free cricket ID, deposit via UPI, and start playing instantly.",               datePublished: "2026-02-14", dateModified: "2026-05-20", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/live-cricket-betting-tips-online",                 title: "Live Cricket Betting Tips Online 2026",                      desc: "Expert predictions, match analysis and winning strategies.",                      datePublished: "2026-02-28", dateModified: "2026-05-22", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/how-sports-betting-platforms-work-online",        title: "How Sports Betting Platforms Work Online",                   desc: "Understand odds, deposits, withdrawals and gameplay.",                             datePublished: "2026-03-10", dateModified: "2026-05-25", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/safe-online-sports-betting-websites-2026",        title: "Safe Online Sports Betting Websites 2026",                   desc: "Secure transactions, verified gameplay and fast withdrawals.",                    datePublished: "2026-03-22", dateModified: "2026-06-01", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/best-cricket-prediction-sites-online",            title: "Best Cricket Prediction Sites Online 2026",                  desc: "ML-powered predictions, live odds and expert analysis.",                          datePublished: "2026-04-05", dateModified: "2026-06-05", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/how-to-bet-on-live-cricket-matches-online",       title: "How to Bet on Live Cricket Matches Online",                  desc: "Complete guide to live cricket betting with best odds.",                          datePublished: "2026-04-18", dateModified: "2026-06-08", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/mobile-friendly-sports-betting-platforms",        title: "Mobile Friendly Sports Betting Platforms 2026",              desc: "Works perfectly on all phones with no app download needed.",                     datePublished: "2026-05-02", dateModified: "2026-06-10", image: `${SITE}/og-image.jpg` },
 ];
 
 const BLOG_FAQ_SCHEMA = {
@@ -143,10 +150,10 @@ const BLOG_LISTING_SCHEMA = {
     headline: post.title,
     description: post.desc,
     url: `${SITE}${post.slug}`,
-    image: `${SITE}/og-image.jpg`,
-    datePublished: "2026-01-15",
-    dateModified: "2026-05-01",
-    author: { "@type": "Organization", name: "Khelo24Id.live", url: SITE },
+    image: { "@type": "ImageObject", url: post.image },
+    datePublished: post.datePublished,
+    dateModified: post.dateModified,
+    author: AUTHOR,
     publisher: { "@type": "Organization", name: "Khelo24Id.live", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` } },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}${post.slug}` }
   }))
@@ -221,16 +228,17 @@ for (const [route, meta] of Object.entries(PAGES)) {
   
   // For individual blog pages, inject BlogPosting schema
   if (route.startsWith('/blog/')) {
+    const postMeta = BLOG_POSTS.find(p => p.slug === route) || {};
     const blogPostSchema = {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       headline: meta.title,
       description: meta.description,
       url: canonicalUrl,
-      image: `${SITE}/og-image.jpg`,
-      datePublished: "2026-01-15",
-      dateModified: "2026-05-01",
-      author: { "@type": "Organization", name: "Khelo24Id.live", url: SITE },
+      image: { "@type": "ImageObject", url: postMeta.image || `${SITE}/og-image.jpg` },
+      datePublished: postMeta.datePublished || "2026-01-10",
+      dateModified: postMeta.dateModified || "2026-06-10",
+      author: AUTHOR,
       publisher: { "@type": "Organization", name: "Khelo24Id.live", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` } },
       mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl }
     };

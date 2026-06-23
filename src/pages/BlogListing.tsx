@@ -4,7 +4,6 @@ import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Link } from "react-router-dom";
 import { useSeo } from "@/hooks/use-seo";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
-import { BlogListingSchema } from "@/components/BlogListingSchema";
 import { BlogFAQ } from "@/components/BlogFAQ";
 import { ArrowRight } from "lucide-react";
 
@@ -32,7 +31,6 @@ const BlogListing = () => {
     <main>
       <Header />
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Blog" }]} />
-      <BlogListingSchema posts={BLOGS} />
       <section className="container py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
           Blog & <span className="text-gradient-gold">Guides</span>
