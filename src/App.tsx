@@ -19,6 +19,7 @@ import BlogSafeBetting from "./pages/BlogSafeBetting.tsx";
 import BlogCricketPrediction from "./pages/BlogCricketPrediction.tsx";
 import BlogHowToBetCricket from "./pages/BlogHowToBetCricket.tsx";
 import BlogMobileFriendly from "./pages/BlogMobileFriendly.tsx";
+import BlogCricketBettingId from "./pages/BlogCricketBettingId.tsx";
 import Contact from "./pages/Contact.tsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 import TermsAndConditions from "./pages/TermsAndConditions.tsx";
@@ -52,6 +53,7 @@ const App = () => (
           <Route path="/blog/best-cricket-prediction-sites-online" element={<BlogCricketPrediction />} />
           <Route path="/blog/how-to-bet-on-live-cricket-matches-online" element={<BlogHowToBetCricket />} />
           <Route path="/blog/mobile-friendly-sports-betting-platforms" element={<BlogMobileFriendly />} />
+          <Route path="/blog/cricket-betting-id-india" element={<BlogCricketBettingId />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />

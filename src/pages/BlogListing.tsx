@@ -8,6 +8,7 @@ import { BlogFAQ } from "@/components/BlogFAQ";
 import { ArrowRight } from "lucide-react";
 
 const BLOGS = [
+  { slug: "/blog/cricket-betting-id-india", title: "Cricket Betting ID India – Free ID & Fast Payouts | Khelo24Id", desc: "Get a free cricket betting ID in India. Bet on IPL, T20 World Cup & more with ₹100 min deposit and 5-min withdrawals." },
   { slug: "/blog/how-to-login-khelo24id", title: "How to Login Khelo24Id Step by Step Guide 2026", desc: "Complete step by step guide on how to login khelo24id with username." },
   { slug: "/blog/how-to-use-khelo24id-online", title: "How to Use Khelo24Id Online — Complete Guide", desc: "Learn how to use khelo24id online platform and start playing instantly." },
   { slug: "/blog/best-online-sports-betting-platform-for-beginners", title: "Best Online Sports Betting Platform for Beginners 2026", desc: "India's easiest platform with free ID, fast payouts and 24x7 support." },

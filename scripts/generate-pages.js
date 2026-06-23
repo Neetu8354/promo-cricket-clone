@@ -96,6 +96,10 @@ const PAGES = {
   '/blog/how-to-use-khelo24id-online': {
     title: 'How to Use Khelo24Id Online | Complete Guide 2026',
     description: 'Learn how to use khelo24id online platform. Step by step guide to access the best online sports gaming platform and start playing instantly.'
+  },
+  '/blog/cricket-betting-id-india': {
+    title: 'Cricket Betting ID India – Free ID & Fast Payouts | Khelo24Id',
+    description: 'Get a free cricket betting ID in India on Khelo24Id. Bet on IPL, T20 World Cup & more. ₹100 min deposit, withdrawals in under 5 mins, 24x7 WhatsApp support.'
   }
 };
 
@@ -117,6 +121,7 @@ const BLOG_POSTS = [
   { slug: "/blog/best-cricket-prediction-sites-online",            title: "Best Cricket Prediction Sites Online 2026",                  desc: "ML-powered predictions, live odds and expert analysis.",                          datePublished: "2026-04-05", dateModified: "2026-06-05", image: `${SITE}/og-image.jpg` },
   { slug: "/blog/how-to-bet-on-live-cricket-matches-online",       title: "How to Bet on Live Cricket Matches Online",                  desc: "Complete guide to live cricket betting with best odds.",                          datePublished: "2026-04-18", dateModified: "2026-06-08", image: `${SITE}/og-image.jpg` },
   { slug: "/blog/mobile-friendly-sports-betting-platforms",        title: "Mobile Friendly Sports Betting Platforms 2026",              desc: "Works perfectly on all phones with no app download needed.",                     datePublished: "2026-05-02", dateModified: "2026-06-10", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/cricket-betting-id-india",                         title: "Cricket Betting ID India – Free ID & Fast Payouts | Khelo24Id", desc: "Get a free cricket betting ID in India. Bet on IPL, T20 World Cup & more with ₹100 min deposit and 5-min withdrawals.", datePublished: "2026-06-20", dateModified: "2026-06-23", image: `${SITE}/blog-cricket-betting-id-hero.jpg` },
 ];
 
 const BLOG_FAQ_SCHEMA = {
