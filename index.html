@@ -40,14 +40,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <!-- hreflang tags for international SEO -->
+    <link rel="alternate" hreflang="en-IN" href="https://www.khelo24id.live/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.khelo24id.live/" />
+
     <!-- Organization Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://www.khelo24id.live/#organization",
       "name": "Khelo24ID",
       "url": "https://www.khelo24id.live",
-      "logo": "https://www.khelo24id.live/logo.png",
+      "logo": "https://www.khelo24id.live/favicon.png",
+      "foundingDate": "2024-01-01",
+      "areaServed": "IN",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "customer support",
@@ -76,10 +83,70 @@
       }
     }
     </script>
+
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I get a free cricket betting ID on Khelo24Id?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Getting a free cricket betting ID on Khelo24Id is simple and instant. Visit our website, click on the registration button, fill in your basic details, and your ID will be activated immediately. No deposit required for ID creation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the minimum withdrawal amount on Khelo24Id?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The minimum withdrawal amount on Khelo24Id is ₹100. We process all withdrawals within 5 minutes, and you can withdraw up to ₹1,00,000 per transaction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Khelo24Id safe and secure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Khelo24Id is completely safe and secure. We use industry-leading SSL encryption to protect your personal and financial data. Our platform is regularly audited for security compliance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Khelo24Id offer 24/7 customer support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide 24/7 customer support via WhatsApp, live chat, and email. Our support team is always ready to help you with any queries or issues."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play Aviator and Teen Patti on Khelo24Id?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Khelo24Id offers a wide range of games including IPL cricket betting, Aviator, Teen Patti, and many other exciting games. All games are available 24/7 on our platform."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <div style="padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+        <h1>Khelo24Id – Online Cricket Betting ID India</h1>
+        <p>Welcome to Khelo24Id.live, India's trusted online cricket betting platform.</p>
+        <p>Get your free cricket betting ID instantly and enjoy IPL betting, Aviator, Teen Patti, and more.</p>
+        <p><strong>Fast Withdrawals:</strong> Get your winnings within 5 minutes</p>
+        <p><strong>24/7 Support:</strong> WhatsApp, Live Chat, and Email support available round the clock</p>
+        <p>Please enable JavaScript to access the full website experience.</p>
+      </div>
+    </noscript>
+    <script type="module" defer src="/src/main.tsx"></script>
   </body>
 </html>
