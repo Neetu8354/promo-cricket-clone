@@ -7,6 +7,7 @@ import { MessageCircle, TrendingUp, Trophy, BarChart3 } from "lucide-react";
 import { useSeo } from "@/hooks/use-seo";
 import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import CricketFAQ from "@/components/CricketFAQ";
 import cardLive from "@/assets/card-livecricket.jpg";
 
 const FEATURES = [
@@ -109,6 +110,8 @@ const Cricket = () => {
           </Button>
         </div>
       </section>
+
+      <CricketFAQ />
 
       <RelatedLinks links={[{ to: "/blog/live-cricket-betting-tips-online", label: "Cricket Betting Tips 2026" }, { to: "/blog/best-cricket-prediction-sites-online", label: "Best Cricket Prediction Sites" }, { to: "/blog/how-to-bet-on-live-cricket-matches-online", label: "How to Bet on Live Cricket" }, { to: "/about", label: "About Khelo24Id.live" }]} />
       <Footer />
