@@ -1,10 +1,10 @@
 import { Trophy, Zap, Shield, Users } from "lucide-react";
 
 const STATS = [
-  { icon: Users, label: "Active Players", value: "12L+" },
-  { icon: Trophy, label: "Daily Winners", value: "₹2.8 Cr" },
+  { icon: Users, label: "Active Players", value: "Lakhs+" },
+  { icon: Trophy, label: "Daily Wins", value: "Big Payouts" },
   { icon: Zap, label: "Instant Payouts", value: "< 5 min" },
-  { icon: Shield, label: "Trusted Since", value: "2018" },
+  { icon: Shield, label: "Trusted Platform", value: "India" },
 ];
 
 export const StatsBar = () => (
