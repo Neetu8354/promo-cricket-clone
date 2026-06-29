@@ -41,6 +41,25 @@ export function useSeo({ title, description, canonical, ogImage }: SeoProps) {
     }
     canon.setAttribute("href", SITE + canonical);
 
+    // hreflang tags
+    let hreflangIN = document.querySelector('link[rel="alternate"][hreflang="en-IN"]') as HTMLLinkElement | null;
+    if (!hreflangIN) {
+      hreflangIN = document.createElement("link");
+      hreflangIN.setAttribute("rel", "alternate");
+      hreflangIN.setAttribute("hreflang", "en-IN");
+      document.head.appendChild(hreflangIN);
+    }
+    hreflangIN.setAttribute("href", SITE + canonical);
+
+    let hreflangDefault = document.querySelector('link[rel="alternate"][hreflang="x-default"]') as HTMLLinkElement | null;
+    if (!hreflangDefault) {
+      hreflangDefault = document.createElement("link");
+      hreflangDefault.setAttribute("rel", "alternate");
+      hreflangDefault.setAttribute("hreflang", "x-default");
+      document.head.appendChild(hreflangDefault);
+    }
+    hreflangDefault.setAttribute("href", SITE + canonical);
+
     // OG tags
     const img = ogImage || DEFAULT_OG_IMAGE;
     setMeta("property", "og:title", title);
