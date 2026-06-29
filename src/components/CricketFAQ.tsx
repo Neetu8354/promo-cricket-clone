@@ -41,9 +41,10 @@ const CricketFAQ = () => {
 
   return (
     <>
-      <script type="application/ld+json">
-        {JSON.stringify(schema)}
-      </script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <section className="container py-12 md:py-20 max-w-3xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold mb-8">Cricket Betting ID — Frequently Asked Questions</h2>
         <div className="space-y-4">
