@@ -29,10 +29,6 @@ const PAGES = {
     title: 'About Khelo24Id.live | Trusted Cricket Betting Platform India',
     description: 'Learn about Khelo24Id.live - India\'s trusted online cricket betting platform. Fast withdrawals under 5 minutes, 24x7 WhatsApp support, and secure UPI transactions.'
   },
-  '/contact': {
-    title: 'Contact Us – Khelo24Id.live | 24x7 Support',
-    description: 'Contact Khelo24Id for 24x7 WhatsApp support in Hindi, English, Telugu & Tamil. Get help with your cricket betting ID, deposits, withdrawals and more.'
-  },
   '/blog': {
     title: 'Cricket Betting Tips & Guides | Khelo24Id.live Blog',
     description: 'Expert cricket betting tips, Aviator strategies, and step-by-step guides on Khelo24Id.live. Learn how to bet on IPL, get free cricket ID, and win more.'
