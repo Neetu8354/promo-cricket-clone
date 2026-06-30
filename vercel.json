@@ -1,4 +1,72 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/contact/",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/cricket",
+      "destination": "/cricket/index.html"
+    },
+    {
+      "source": "/cricket/",
+      "destination": "/cricket/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/about/",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/aviator",
+      "destination": "/aviator/index.html"
+    },
+    {
+      "source": "/aviator/",
+      "destination": "/aviator/index.html"
+    },
+    {
+      "source": "/teen-patti",
+      "destination": "/teen-patti/index.html"
+    },
+    {
+      "source": "/teen-patti/",
+      "destination": "/teen-patti/index.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy/index.html"
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy-policy/index.html"
+    },
+    {
+      "source": "/terms-and-conditions",
+      "destination": "/terms-and-conditions/index.html"
+    },
+    {
+      "source": "/terms-and-conditions/",
+      "destination": "/terms-and-conditions/index.html"
+    }
+  ],
   "redirects": [
     {
       "source": "/",
