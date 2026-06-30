@@ -29,6 +29,10 @@ const PAGES = {
     title: 'About Khelo24Id.live | Trusted Cricket Betting Platform India',
     description: 'Learn about Khelo24Id.live - India\'s trusted online cricket betting platform. Fast withdrawals under 5 minutes, 24x7 WhatsApp support, and secure UPI transactions.'
   },
+  '/contact': {
+    title: 'Contact Us – Khelo24Id.live | 24x7 Support',
+    description: 'Contact Khelo24Id for 24x7 WhatsApp support in Hindi, English, Telugu & Tamil. Get help with your cricket betting ID, deposits, withdrawals and more.'
+  },
   '/blog': {
     title: 'Cricket Betting Tips & Guides | Khelo24Id.live Blog',
     description: 'Expert cricket betting tips, Aviator strategies, and step-by-step guides on Khelo24Id.live. Learn how to bet on IPL, get free cricket ID, and win more.'
@@ -264,6 +268,110 @@ for (const [route, meta] of Object.entries(PAGES)) {
     html = html.replace(
       '</head>',
       `${blogPostScript}\n</head>`
+    );
+  }
+  
+  // For /contact, inject pre-rendered HTML content
+  if (route === '/contact') {
+    const contactContent = `
+      <div id="root">
+        <header class="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
+          <div class="container flex h-14 max-w-screen-2xl items-center justify-between">
+            <a href="/" class="flex items-center gap-2 font-bold text-lg">Khelo24Id</a>
+          </div>
+        </header>
+        <nav class="border-b border-border">
+          <div class="container py-2 text-sm text-muted-foreground">
+            <a href="/">Home</a> / <span>Contact Us</span>
+          </div>
+        </nav>
+        <main>
+          <section class="container py-12 md:py-20">
+            <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4">
+              Contact <span class="text-gradient-gold">Khelo24Id.live</span>
+            </h1>
+            <p class="text-muted-foreground max-w-2xl mb-10">We're here to help — reach out anytime for login issues, deposits, withdrawals or game queries.</p>
+
+            <h2 class="text-xl md:text-2xl font-bold mb-6">24x7 Support Available</h2>
+            <div class="grid sm:grid-cols-2 gap-4 max-w-2xl mb-10">
+              <button class="flex items-start gap-4 p-6 rounded-xl bg-card/50 border border-border hover:border-accent/50 transition-all text-left">
+                <div class="h-12 w-12 rounded-lg bg-accent/15 border border-accent/30 flex items-center justify-center shrink-0">📱</div>
+                <div>
+                  <h3 class="font-bold mb-1">Live Chat</h3>
+                  <p class="text-sm text-muted-foreground">Instant replies from our support team, available round the clock.</p>
+                </div>
+              </button>
+              <button class="flex items-start gap-4 p-6 rounded-xl bg-card/50 border border-border hover:border-accent/50 transition-all text-left">
+                <div class="h-12 w-12 rounded-lg bg-accent/15 border border-accent/30 flex items-center justify-center shrink-0">🎧</div>
+                <div>
+                  <h3 class="font-bold mb-1">WhatsApp Assistance</h3>
+                  <p class="text-sm text-muted-foreground">Chat with us on WhatsApp in Hindi, English, Telugu & Tamil.</p>
+                </div>
+              </button>
+            </div>
+
+            <div class="max-w-2xl mb-10">
+              <h2 class="text-xl font-bold mb-3">How Can We Help?</h2>
+              <ul class="text-sm text-muted-foreground space-y-2">
+                <li>• Account login and registration issues</li>
+                <li>• Deposit and withdrawal assistance</li>
+                <li>• Game rules and betting queries</li>
+                <li>• Technical support and troubleshooting</li>
+                <li>• Responsible gambling tools and self-exclusion</li>
+              </ul>
+              <p class="text-sm text-muted-foreground mt-4">
+                Our support team speaks Hindi, English, Telugu, and Tamil. Average response time is under 2 minutes.
+              </p>
+            </div>
+
+            <div class="text-center">
+              <button class="bg-accent text-accent-foreground hover:bg-accent/90 font-bold px-6 py-2 rounded-lg">
+                💬 Chat on WhatsApp Now
+              </button>
+            </div>
+          </section>
+
+          <section class="container py-12 md:py-20 max-w-3xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6">Contact Support FAQs</h2>
+            <div class="space-y-4">
+              <div class="p-5 rounded-xl bg-card/50 border border-border">
+                <h3 class="font-bold mb-2">How can I contact Khelo24Id customer support?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">You can reach Khelo24Id support 24x7 via WhatsApp. Click the 'Chat on WhatsApp' button on any page or the floating WhatsApp icon. Our team replies in under 2 minutes.</p>
+              </div>
+              <div class="p-5 rounded-xl bg-card/50 border border-border">
+                <h3 class="font-bold mb-2">What is the response time for support queries?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Average response time is under 2 minutes on WhatsApp. For complex issues like withdrawal verification or account recovery, resolution may take up to 30 minutes.</p>
+              </div>
+              <div class="p-5 rounded-xl bg-card/50 border border-border">
+                <h3 class="font-bold mb-2">Which languages does Khelo24Id support offer?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Khelo24Id customer support is available in Hindi, English, Telugu, and Tamil. You can chat in the language you are most comfortable with.</p>
+              </div>
+              <div class="p-5 rounded-xl bg-card/50 border border-border">
+                <h3 class="font-bold mb-2">Can I get help with my cricket betting ID on WhatsApp?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Yes. Our support team can help you create a free cricket betting ID, reset your password, fix login issues, and guide you through deposits and withdrawals.</p>
+              </div>
+              <div class="p-5 rounded-xl bg-card/50 border border-border">
+                <h3 class="font-bold mb-2">What contact issues can Khelo24Id support help with?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">We assist with account login, registration, deposits, withdrawals, game rules, cricket betting queries, Aviator and Teen Patti help, technical issues, and responsible gambling tools.</p>
+              </div>
+              <div class="p-5 rounded-xl bg-card/50 border border-border">
+                <h3 class="font-bold mb-2">Is Khelo24Id support available on weekends and holidays?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Yes, Khelo24Id support is available 24 hours a day, 7 days a week, including weekends and Indian public holidays.</p>
+              </div>
+            </div>
+          </section>
+
+          <footer class="border-t border-border bg-background/50 py-8">
+            <div class="container text-center text-sm text-muted-foreground">
+              <p>&copy; 2024 Khelo24Id.live. All rights reserved.</p>
+            </div>
+          </footer>
+        </main>
+      </div>
+    `;
+    html = html.replace(
+      '<div id="root"></div>',
+      contactContent
     );
   }
   
