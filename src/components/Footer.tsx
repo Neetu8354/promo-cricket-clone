@@ -59,7 +59,7 @@ export const Footer = () => (
                 {l.to ? (
                   <Link to={l.to} className="text-sm text-muted-foreground hover:text-primary transition-smooth">{l.label}</Link>
                 ) : (
-                  <button onClick={openWA} className="text-sm text-muted-foreground hover:text-primary transition-smooth">{l.label}</button>
+                  <a href="https://wa.me/message" onClick={(e) => { e.preventDefault(); openWA(); }} className="text-sm text-muted-foreground hover:text-primary transition-smooth cursor-pointer">{l.label}</a>
                 )}
               </li>
             ))}
