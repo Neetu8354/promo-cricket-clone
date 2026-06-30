@@ -373,6 +373,67 @@ for (const [route, meta] of Object.entries(PAGES)) {
       '<div id="root"></div>',
       contactContent
     );
+
+    // Inject ContactFAQ schema
+    const contactFaqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How can I contact Khelo24Id customer support?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "You can reach Khelo24Id support 24x7 via WhatsApp. Click the 'Chat on WhatsApp' button on any page or the floating WhatsApp icon. Our team replies in under 2 minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "What is the response time for support queries?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Average response time is under 2 minutes on WhatsApp. For complex issues like withdrawal verification or account recovery, resolution may take up to 30 minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Which languages does Khelo24Id support offer?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Khelo24Id customer support is available in Hindi, English, Telugu, and Tamil. You can chat in the language you are most comfortable with."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Can I get help with my cricket betting ID on WhatsApp?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Our support team can help you create a free cricket betting ID, reset your password, fix login issues, and guide you through deposits and withdrawals."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "What contact issues can Khelo24Id support help with?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We assist with account login, registration, deposits, withdrawals, game rules, cricket betting queries, Aviator and Teen Patti help, technical issues, and responsible gambling tools."
+          }
+        },
+        {
+          "@type": "Question",
+          name: "Is Khelo24Id support available on weekends and holidays?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, Khelo24Id support is available 24 hours a day, 7 days a week, including weekends and Indian public holidays."
+          }
+        }
+      ]
+    };
+    const contactFaqScript = `<script type="application/ld+json">\n${JSON.stringify(contactFaqSchema, null, 2)}\n</script>`;
+    html = html.replace(
+      '</head>',
+      `${contactFaqScript}\n</head>`
+    );
   }
   
   // Create directory and write file
