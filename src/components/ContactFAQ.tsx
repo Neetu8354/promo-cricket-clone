@@ -1,27 +1,27 @@
 const FAQ_ITEMS = [
   {
-    question: "How can I contact Khelo24Id customer support?",
-    answer: "You can reach Khelo24Id support 24x7 via WhatsApp. Click the 'Chat on WhatsApp' button on any page or the floating WhatsApp icon. Our team replies in under 2 minutes."
+    question: "How can I contact Khelo24App customer support?",
+    answer: "You can reach Khelo24App support 24x7 via WhatsApp. Click the 'Chat on WhatsApp' button on any page or the floating WhatsApp icon. Our team replies in under 2 minutes."
   },
   {
     question: "What is the response time for support queries?",
     answer: "Average response time is under 2 minutes on WhatsApp. For complex issues like withdrawal verification or account recovery, resolution may take up to 30 minutes."
   },
   {
-    question: "Which languages does Khelo24Id support offer?",
-    answer: "Khelo24Id customer support is available in Hindi, English, Telugu, and Tamil. You can chat in the language you are most comfortable with."
+    question: "Which languages does Khelo24App support offer?",
+    answer: "Khelo24App customer support is available in Hindi, English, Telugu, and Tamil. You can chat in the language you are most comfortable with."
   },
   {
     question: "Can I get help with my cricket betting ID on WhatsApp?",
     answer: "Yes. Our support team can help you create a free cricket betting ID, reset your password, fix login issues, and guide you through deposits and withdrawals."
   },
   {
-    question: "What contact issues can Khelo24Id support help with?",
+    question: "What contact issues can Khelo24App support help with?",
     answer: "We assist with account login, registration, deposits, withdrawals, game rules, cricket betting queries, Aviator and Teen Patti help, technical issues, and responsible gambling tools."
   },
   {
-    question: "Is Khelo24Id support available on weekends and holidays?",
-    answer: "Yes, Khelo24Id support is available 24 hours a day, 7 days a week, including weekends and Indian public holidays."
+    question: "Is Khelo24App support available on weekends and holidays?",
+    answer: "Yes, Khelo24App support is available 24 hours a day, 7 days a week, including weekends and Indian public holidays."
   }
 ];
 

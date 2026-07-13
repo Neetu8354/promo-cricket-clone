@@ -29,8 +29,8 @@ const PAYMENT_METHODS = [
 
 const PaymentMethods = () => {
   useSeo({
-    title: "Payment Methods | Deposit & Withdrawal Options | Khelo24Id.live",
-    description: "Learn about all payment methods on Khelo24Id.live. Deposit via UPI, IMPS, NEFT, Net Banking. Fast withdrawals under 5 minutes. Secure INR transactions.",
+    title: "Payment Methods | Deposit & Withdrawal Options | khelo24app.live",
+    description: "Learn about all payment methods on khelo24app.live. Deposit via UPI, IMPS, NEFT, Net Banking. Fast withdrawals under 5 minutes. Secure INR transactions.",
     canonical: "/payment-methods",
   });
 
@@ -44,7 +44,7 @@ const PaymentMethods = () => {
           Payment <span className="text-gradient-gold">Methods</span>
         </h1>
         <p className="text-lg text-muted-foreground mb-10">
-          Khelo24Id.live supports all major Indian payment methods. Deposit instantly via UPI and withdraw your winnings in under 5 minutes.
+          khelo24app.live supports all major Indian payment methods. Deposit instantly via UPI and withdraw your winnings in under 5 minutes.
         </p>
 
         {/* Trust Indicators */}
@@ -234,7 +234,7 @@ const PaymentMethods = () => {
         </section>
       </article>
 
-      <RelatedLinks links={[{ to: "/about", label: "About Khelo24Id.live" }, { to: "/contact", label: "Contact Support" }, { to: "/responsible-gambling", label: "Responsible Gambling" }, { to: "/cricket", label: "Start Betting" }]} />
+      <RelatedLinks links={[{ to: "/about", label: "About khelo24app.live" }, { to: "/contact", label: "Contact Support" }, { to: "/responsible-gambling", label: "Responsible Gambling" }, { to: "/cricket", label: "Start Betting" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

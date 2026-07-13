@@ -43,8 +43,8 @@ const App = () => (
           <Route path="/aviator" element={<Aviator />} />
           <Route path="/teen-patti" element={<TeenPatti />} />
           <Route path="/blog" element={<BlogListing />} />
-          <Route path="/blog/how-to-login-khelo24id" element={<Blog />} />
-          <Route path="/blog/how-to-use-khelo24id-online" element={<BlogHowToUse />} />
+          <Route path="/blog/how-to-login-Khelo24App" element={<Blog />} />
+          <Route path="/blog/how-to-use-Khelo24App-online" element={<BlogHowToUse />} />
           <Route path="/blog/best-online-sports-betting-platform-for-beginners" element={<BlogBestPlatform />} />
           <Route path="/blog/how-to-join-online-sports-gaming-website" element={<BlogHowToJoin />} />
           <Route path="/blog/live-cricket-betting-tips-online" element={<BlogCricketTips />} />

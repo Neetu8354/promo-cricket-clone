@@ -11,7 +11,7 @@ import aviatorImg from "@/assets/promo-arcade.jpg";
 import aviatorImg2 from "@/assets/card-roulette.jpg";
 
 const STEPS = [
-  { icon: Rocket, title: "Step 1: Set Your Bet", desc: "Log in to your Khelo24Id account and set your bet amount" },
+  { icon: Rocket, title: "Step 1: Set Your Bet", desc: "Log in to your Khelo24App account and set your bet amount" },
   { icon: Target, title: "Step 2: Watch & Decide", desc: "Watch the plane take off — keep your eye on the multiplier" },
   { icon: Gift, title: "Step 3: Cash Out", desc: "Hit Cash Out at the right moment and collect your winnings!" },
 ];
@@ -25,8 +25,8 @@ const TIPS = [
 
 const Aviator = () => {
   useSeo({
-    title: "Aviator Game Online India | Play & Win at Khelo24Id.live",
-    description: "Play Aviator crash game at Khelo24Id! India's most thrilling online game — watch the multiplier rise and cash out at the perfect moment. Register now & claim your welcome bonus!",
+    title: "Aviator Game Online India | Play & Win at khelo24app.live",
+    description: "Play Aviator crash game at Khelo24App! India's most thrilling online game — watch the multiplier rise and cash out at the perfect moment. Register now & claim your welcome bonus!",
     canonical: "/aviator",
   });
 
@@ -39,12 +39,12 @@ const Aviator = () => {
           Aviator Game — <span className="text-gradient-gold">Fly High, Cash Out Fast!</span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mb-10">
-          Every second is a decision. Every moment is a choice between greed and strategy. Welcome to Aviator — India's most addictive online crash game, now available at Khelo24Id.live with bigger thrills and faster payouts!
+          Every second is a decision. Every moment is a choice between greed and strategy. Welcome to Aviator — India's most addictive online crash game, now available at khelo24app.live with bigger thrills and faster payouts!
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 mb-10">
-          <img src={aviatorImg} alt="Aviator crash game interface on Khelo24Id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
-          <img src={aviatorImg2} alt="Aviator game multiplier display on Khelo24Id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
+          <img src={aviatorImg} alt="Aviator crash game interface on khelo24app.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
+          <img src={aviatorImg2} alt="Aviator game multiplier display on khelo24app.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
         </div>
 
         {/* What is Aviator */}
@@ -59,7 +59,7 @@ const Aviator = () => {
         </div>
 
         {/* How to Play */}
-        <h2 className="text-2xl md:text-3xl font-bold mb-6">How to Play Aviator on Khelo24Id</h2>
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">How to Play Aviator on Khelo24App</h2>
         <div className="grid sm:grid-cols-3 gap-4 mb-14">
           {STEPS.map((s, i) => (
             <div key={s.title} className="p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all relative">
@@ -92,7 +92,7 @@ const Aviator = () => {
         {/* CTA */}
         <div className="text-center p-8 rounded-2xl bg-primary/10 border border-primary/30">
           <h2 className="text-xl font-bold mb-2">Ready to Fly?</h2>
-          <p className="text-muted-foreground mb-4">Join thousands of players enjoying Aviator on Khelo24Id.live. Play responsibly.</p>
+          <p className="text-muted-foreground mb-4">Join thousands of players enjoying Aviator on khelo24app.live. Play responsibly.</p>
           <Button onClick={openWA} size="lg" className="bg-gradient-gold text-gold-foreground font-bold">
             <MessageCircle className="h-5 w-5 mr-2" /> Play Aviator Now
           </Button>

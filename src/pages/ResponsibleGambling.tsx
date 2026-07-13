@@ -25,8 +25,8 @@ const WARNING_SIGNS = [
 
 const ResponsibleGambling = () => {
   useSeo({
-    title: "Responsible Gambling – Khelo24Id.live | Play Safe & Stay in Control",
-    description: "Khelo24Id.live promotes responsible gambling. Learn about setting limits, recognizing problem gambling signs, and accessing support resources.",
+    title: "Responsible Gambling – khelo24app.live | Play Safe & Stay in Control",
+    description: "khelo24app.live promotes responsible gambling. Learn about setting limits, recognizing problem gambling signs, and accessing support resources.",
     canonical: "/responsible-gambling",
   });
 
@@ -39,7 +39,7 @@ const ResponsibleGambling = () => {
           Responsible <span className="text-gradient-gold">Gambling</span>
         </h1>
         <p className="text-lg text-muted-foreground mb-8">
-          At Khelo24Id.live, we are committed to promoting responsible gambling. Gaming should be an enjoyable form of entertainment, not a source of stress or financial hardship.
+          At khelo24app.live, we are committed to promoting responsible gambling. Gaming should be an enjoyable form of entertainment, not a source of stress or financial hardship.
         </p>
 
         <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-6 mb-10">
@@ -131,7 +131,7 @@ const ResponsibleGambling = () => {
           <section>
             <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Commitment</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Khelo24Id.live is committed to providing a safe and responsible gaming environment. We:
+              khelo24app.live is committed to providing a safe and responsible gaming environment. We:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4 mt-4">
               <li>Verify the age of all users to prevent underage gambling</li>

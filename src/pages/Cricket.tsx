@@ -26,8 +26,8 @@ const MATCHES = [
 
 const Cricket = () => {
   useSeo({
-    title: "Cricket Betting ID Online | Get Instant Cricket ID – Khelo24Id.live",
-    description: "Get your Online Cricket Betting ID in just 5 minutes at Khelo24Id! Bet on IPL, T20 World Cup & all cricket matches. Best odds, fast UPI withdrawal & 24x7 support. Register now!",
+    title: "Cricket Betting ID Online | Get Instant Cricket ID – khelo24app.live",
+    description: "Get your Online Cricket Betting ID in just 5 minutes at Khelo24App! Bet on IPL, T20 World Cup & all cricket matches. Best odds, fast UPI withdrawal & 24x7 support. Register now!",
     canonical: "/cricket",
   });
 
@@ -40,12 +40,12 @@ const Cricket = () => {
           Get Your Online Cricket Betting ID — <span className="text-gradient-gold">Instant, Secure & 100% Trusted</span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mb-10">
-          In India, cricket isn't just a sport — it's a passion that runs through every vein. At Khelo24Id.live, we've taken that passion and turned it into something extraordinary. Now, watching a match isn't enough — bet on every ball and feel the thrill like never before!
+          In India, cricket isn't just a sport — it's a passion that runs through every vein. At khelo24app.live, we've taken that passion and turned it into something extraordinary. Now, watching a match isn't enough — bet on every ball and feel the thrill like never before!
         </p>
 
         {/* What is Cricket Betting ID */}
         <div className="grid md:grid-cols-2 gap-8 items-center mb-14">
-          <img src={cardLive} alt="Online Cricket Betting ID interface on Khelo24Id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
+          <img src={cardLive} alt="Online Cricket Betting ID interface on khelo24app.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
           <div>
             <h2 className="text-xl md:text-2xl font-bold mb-4">What is a Cricket Betting ID?</h2>
             <p className="text-muted-foreground mb-4">
@@ -60,8 +60,8 @@ const Cricket = () => {
           </div>
         </div>
 
-        {/* Why Get ID from Khelo24Id */}
-        <h2 className="text-2xl md:text-3xl font-bold mb-6">Why Get Your Cricket ID from Khelo24Id?</h2>
+        {/* Why Get ID from Khelo24App */}
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">Why Get Your Cricket ID from Khelo24App?</h2>
         <div className="grid sm:grid-cols-3 gap-4 mb-14">
           {FEATURES.map((f) => (
             <div key={f.title} className="p-5 rounded-xl bg-card/50 border border-border hover:border-primary/50 transition-all">
@@ -113,7 +113,7 @@ const Cricket = () => {
 
       <CricketFAQ />
 
-      <RelatedLinks links={[{ to: "/blog/live-cricket-betting-tips-online", label: "Cricket Betting Tips 2026" }, { to: "/blog/best-cricket-prediction-sites-online", label: "Best Cricket Prediction Sites" }, { to: "/blog/how-to-bet-on-live-cricket-matches-online", label: "How to Bet on Live Cricket" }, { to: "/about", label: "About Khelo24Id.live" }]} />
+      <RelatedLinks links={[{ to: "/blog/live-cricket-betting-tips-online", label: "Cricket Betting Tips 2026" }, { to: "/blog/best-cricket-prediction-sites-online", label: "Best Cricket Prediction Sites" }, { to: "/blog/how-to-bet-on-live-cricket-matches-online", label: "How to Bet on Live Cricket" }, { to: "/about", label: "About khelo24app.live" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

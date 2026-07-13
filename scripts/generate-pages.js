@@ -10,96 +10,96 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.join(__dirname, '..', 'dist');
-const SITE = 'https://www.khelo24id.live';
+const SITE = 'https://www.khelo24app.live';
 
 const PAGES = {
   '/cricket': {
-    title: 'Cricket Betting ID Online | Get Instant Cricket ID – Khelo24Id.live',
-    description: 'Get your Online Cricket Betting ID in just 5 minutes at Khelo24Id! Bet on IPL, T20 World Cup & all cricket matches. Best odds, fast UPI withdrawal & 24x7 support. Register now!'
+    title: 'Cricket Betting ID Online | Get Instant Cricket ID – khelo24app.live',
+    description: 'Get your Online Cricket Betting ID in just 5 minutes at Khelo24App! Bet on IPL, T20 World Cup & all cricket matches. Best odds, fast UPI withdrawal & 24x7 support. Register now!'
   },
   '/aviator': {
-    title: 'Aviator Game Online India | Play & Win at Khelo24Id.live',
-    description: 'Play Aviator crash game at Khelo24Id! India\'s most thrilling online game — watch the multiplier rise and cash out at the perfect moment. Register now & claim your welcome bonus!'
+    title: 'Aviator Game Online India | Play & Win at khelo24app.live',
+    description: 'Play Aviator crash game at Khelo24App! India\'s most thrilling online game — watch the multiplier rise and cash out at the perfect moment. Register now & claim your welcome bonus!'
   },
   '/teen-patti': {
-    title: 'Teen Patti Online Real Money | Play Live Teen Patti – Khelo24Id',
-    description: 'Play Teen Patti online with real money at Khelo24Id.live! Enjoy live dealers, multiple game variants & instant UPI withdrawals. India\'s most trusted Teen Patti platform. Join now!'
+    title: 'Teen Patti Online Real Money | Play Live Teen Patti – Khelo24App',
+    description: 'Play Teen Patti online with real money at khelo24app.live! Enjoy live dealers, multiple game variants & instant UPI withdrawals. India\'s most trusted Teen Patti platform. Join now!'
   },
   '/about': {
-    title: 'About Khelo24Id.live | Trusted Cricket Betting Platform India',
-    description: 'Learn about Khelo24Id.live - India\'s trusted online cricket betting platform. Fast withdrawals under 5 minutes, 24x7 WhatsApp support, and secure UPI transactions.'
+    title: 'About khelo24app.live | Trusted Cricket Betting Platform India',
+    description: 'Learn about khelo24app.live - India\'s trusted online cricket betting platform. Fast withdrawals under 5 minutes, 24x7 WhatsApp support, and secure UPI transactions.'
   },
   '/contact': {
-    title: 'Contact Us – Khelo24Id.live | 24x7 Support',
-    description: 'Contact Khelo24Id for 24x7 WhatsApp support in Hindi, English, Telugu & Tamil. Get help with your cricket betting ID, deposits, withdrawals and more.'
+    title: 'Contact Us – khelo24app.live | 24x7 Support',
+    description: 'Contact Khelo24App for 24x7 WhatsApp support in Hindi, English, Telugu & Tamil. Get help with your cricket betting ID, deposits, withdrawals and more.'
   },
   '/blog': {
-    title: 'Cricket Betting Tips & Guides | Khelo24Id.live Blog',
-    description: 'Expert cricket betting tips, Aviator strategies, and step-by-step guides on Khelo24Id.live. Learn how to bet on IPL, get free cricket ID, and win more.'
+    title: 'Cricket Betting Tips & Guides | khelo24app.live Blog',
+    description: 'Expert cricket betting tips, Aviator strategies, and step-by-step guides on khelo24app.live. Learn how to bet on IPL, get free cricket ID, and win more.'
   },
   '/privacy-policy': {
-    title: 'Privacy Policy – Khelo24Id.live | Data Protection & Security',
-    description: 'Read Khelo24Id.live\'s privacy policy. Learn how we collect, use, and protect your personal information on our online cricket betting platform.'
+    title: 'Privacy Policy – khelo24app.live | Data Protection & Security',
+    description: 'Read khelo24app.live\'s privacy policy. Learn how we collect, use, and protect your personal information on our online cricket betting platform.'
   },
   '/terms-and-conditions': {
-    title: 'Terms and Conditions – Khelo24Id.live | User Agreement',
-    description: 'Read the terms and conditions for using Khelo24Id.live. Understand your rights and responsibilities on our online cricket betting platform.'
+    title: 'Terms and Conditions – khelo24app.live | User Agreement',
+    description: 'Read the terms and conditions for using khelo24app.live. Understand your rights and responsibilities on our online cricket betting platform.'
   },
   '/responsible-gambling': {
-    title: 'Responsible Gambling – Khelo24Id.live | Play Safe & Stay in Control',
-    description: 'Khelo24Id.live promotes responsible gambling. Learn about setting limits, recognizing problem gambling signs, and accessing support resources.'
+    title: 'Responsible Gambling – khelo24app.live | Play Safe & Stay in Control',
+    description: 'khelo24app.live promotes responsible gambling. Learn about setting limits, recognizing problem gambling signs, and accessing support resources.'
   },
   '/payment-methods': {
-    title: 'Payment Methods | Deposit & Withdrawal Options | Khelo24Id.live',
-    description: 'Learn about all payment methods on Khelo24Id.live. Deposit via UPI, IMPS, NEFT, Net Banking. Fast withdrawals under 5 minutes. Secure INR transactions.'
+    title: 'Payment Methods | Deposit & Withdrawal Options | khelo24app.live',
+    description: 'Learn about all payment methods on khelo24app.live. Deposit via UPI, IMPS, NEFT, Net Banking. Fast withdrawals under 5 minutes. Secure INR transactions.'
   },
   '/editorial-policy': {
-    title: 'Editorial Policy | Content Standards | Khelo24Id.live',
-    description: 'Read Khelo24Id.live\'s editorial policy. Learn about our content standards, accuracy commitment, responsible gambling messaging, and how we maintain trust.'
+    title: 'Editorial Policy | Content Standards | khelo24app.live',
+    description: 'Read khelo24app.live\'s editorial policy. Learn about our content standards, accuracy commitment, responsible gambling messaging, and how we maintain trust.'
   },
-  '/blog/how-to-login-khelo24id': {
-    title: 'How to Login Khelo24Id | Step by Step Guide 2026',
-    description: 'Complete step-by-step guide on how to login to Khelo24Id.live. Get your cricket betting ID via WhatsApp and start playing in under 60 seconds.'
+  '/blog/how-to-login-Khelo24App': {
+    title: 'How to Login Khelo24App | Step by Step Guide 2026',
+    description: 'Complete step-by-step guide on how to login to khelo24app.live. Get your cricket betting ID via WhatsApp and start playing in under 60 seconds.'
   },
   '/blog/live-cricket-betting-tips-online': {
-    title: 'Live Cricket Betting Tips Online 2026 | Khelo24Id.live',
-    description: 'Get the best live cricket betting tips online for 2026. Expert predictions, match analysis and winning strategies on Khelo24Id.live.'
+    title: 'Live Cricket Betting Tips Online 2026 | khelo24app.live',
+    description: 'Get the best live cricket betting tips online for 2026. Expert predictions, match analysis and winning strategies on khelo24app.live.'
   },
   '/blog/best-cricket-prediction-sites-online': {
-    title: 'Best Cricket Prediction Sites Online 2026 | Khelo24Id.live',
-    description: 'Find the best cricket prediction sites online in 2026. Khelo24Id.live offers ML-powered predictions, live odds and expert analysis.'
+    title: 'Best Cricket Prediction Sites Online 2026 | khelo24app.live',
+    description: 'Find the best cricket prediction sites online in 2026. khelo24app.live offers ML-powered predictions, live odds and expert analysis.'
   },
   '/blog/how-to-bet-on-live-cricket-matches-online': {
-    title: 'How to Bet on Live Cricket Matches Online 2026 | Khelo24Id.live',
-    description: 'Learn how to bet on live cricket matches online in 2026. Complete guide to live cricket betting on Khelo24Id.live with best odds.'
+    title: 'How to Bet on Live Cricket Matches Online 2026 | khelo24app.live',
+    description: 'Learn how to bet on live cricket matches online in 2026. Complete guide to live cricket betting on khelo24app.live with best odds.'
   },
   '/blog/best-online-sports-betting-platform-for-beginners': {
-    title: 'Best Online Sports Betting Platform for Beginners 2026 | Khelo24Id.live',
-    description: 'Discover the best online sports betting platform for beginners in 2026. Khelo24Id.live offers easy signup, free cricket ID and 24x7 support.'
+    title: 'Best Online Sports Betting Platform for Beginners 2026 | khelo24app.live',
+    description: 'Discover the best online sports betting platform for beginners in 2026. khelo24app.live offers easy signup, free cricket ID and 24x7 support.'
   },
   '/blog/how-to-join-online-sports-gaming-website': {
-    title: 'How to Join Online Sports Gaming Website 2026 | Khelo24Id.live',
-    description: 'Complete guide on how to join online sports gaming website Khelo24Id.live. Get free cricket ID, deposit via UPI, and start playing instantly.'
+    title: 'How to Join Online Sports Gaming Website 2026 | khelo24app.live',
+    description: 'Complete guide on how to join online sports gaming website khelo24app.live. Get free cricket ID, deposit via UPI, and start playing instantly.'
   },
   '/blog/how-sports-betting-platforms-work-online': {
-    title: 'How Sports Betting Platforms Work Online 2026 | Khelo24Id.live',
-    description: 'Learn how sports betting platforms work online. Understand odds, deposits, withdrawals and gameplay on Khelo24Id.live.'
+    title: 'How Sports Betting Platforms Work Online 2026 | khelo24app.live',
+    description: 'Learn how sports betting platforms work online. Understand odds, deposits, withdrawals and gameplay on khelo24app.live.'
   },
   '/blog/safe-online-sports-betting-websites-2026': {
-    title: 'Safe Online Sports Betting Websites 2026 | Khelo24Id.live',
-    description: 'Discover safe online sports betting websites in 2026. Khelo24Id.live offers secure transactions, verified gameplay and fast withdrawals.'
+    title: 'Safe Online Sports Betting Websites 2026 | khelo24app.live',
+    description: 'Discover safe online sports betting websites in 2026. khelo24app.live offers secure transactions, verified gameplay and fast withdrawals.'
   },
   '/blog/mobile-friendly-sports-betting-platforms': {
-    title: 'Mobile Friendly Sports Betting Platforms 2026 | Khelo24Id.live',
-    description: 'Discover the best mobile friendly sports betting platforms in 2026. Khelo24Id.live works perfectly on all phones with no app download needed.'
+    title: 'Mobile Friendly Sports Betting Platforms 2026 | khelo24app.live',
+    description: 'Discover the best mobile friendly sports betting platforms in 2026. khelo24app.live works perfectly on all phones with no app download needed.'
   },
-  '/blog/how-to-use-khelo24id-online': {
-    title: 'How to Use Khelo24Id Online | Complete Guide 2026',
-    description: 'Learn how to use khelo24id online platform. Step by step guide to access the best online sports gaming platform and start playing instantly.'
+  '/blog/how-to-use-Khelo24App-online': {
+    title: 'How to Use Khelo24App Online | Complete Guide 2026',
+    description: 'Learn how to use Khelo24App online platform. Step by step guide to access the best online sports gaming platform and start playing instantly.'
   },
   '/blog/cricket-betting-id-india': {
-    title: 'Cricket Betting ID India – Free ID & Fast Payouts | Khelo24Id',
-    description: 'Get a free cricket betting ID in India on Khelo24Id. Bet on IPL, T20 World Cup & more. ₹100 min deposit, withdrawals in under 5 mins, 24x7 WhatsApp support.'
+    title: 'Cricket Betting ID India – Free ID & Fast Payouts | Khelo24App',
+    description: 'Get a free cricket betting ID in India on Khelo24App. Bet on IPL, T20 World Cup & more. ₹100 min deposit, withdrawals in under 5 mins, 24x7 WhatsApp support.'
   }
 };
 
@@ -111,8 +111,8 @@ const AUTHOR = {
 };
 
 const BLOG_POSTS = [
-  { slug: "/blog/how-to-login-khelo24id",                          title: "How to Login Khelo24Id Step by Step Guide 2026",              desc: "Complete step by step guide on how to login khelo24id with username.",              datePublished: "2026-01-10", dateModified: "2026-05-12", image: `${SITE}/og-image.jpg` },
-  { slug: "/blog/how-to-use-khelo24id-online",                     title: "How to Use Khelo24Id Online — Complete Guide",                desc: "Learn how to use khelo24id online platform and start playing instantly.",            datePublished: "2026-01-18", dateModified: "2026-05-15", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/how-to-login-Khelo24App",                          title: "How to Login Khelo24App Step by Step Guide 2026",              desc: "Complete step by step guide on how to login Khelo24App with username.",              datePublished: "2026-01-10", dateModified: "2026-05-12", image: `${SITE}/og-image.jpg` },
+  { slug: "/blog/how-to-use-Khelo24App-online",                     title: "How to Use Khelo24App Online — Complete Guide",                desc: "Learn how to use Khelo24App online platform and start playing instantly.",            datePublished: "2026-01-18", dateModified: "2026-05-15", image: `${SITE}/og-image.jpg` },
   { slug: "/blog/best-online-sports-betting-platform-for-beginners", title: "Best Online Sports Betting Platform for Beginners 2026",    desc: "India's easiest platform with free ID, fast payouts and 24x7 support.",             datePublished: "2026-02-03", dateModified: "2026-05-18", image: `${SITE}/og-image.jpg` },
   { slug: "/blog/how-to-join-online-sports-gaming-website",        title: "How to Join Online Sports Gaming Website",                   desc: "Get free cricket ID, deposit via UPI, and start playing instantly.",               datePublished: "2026-02-14", dateModified: "2026-05-20", image: `${SITE}/og-image.jpg` },
   { slug: "/blog/live-cricket-betting-tips-online",                 title: "Live Cricket Betting Tips Online 2026",                      desc: "Expert predictions, match analysis and winning strategies.",                      datePublished: "2026-02-28", dateModified: "2026-05-22", image: `${SITE}/og-image.jpg` },
@@ -121,18 +121,18 @@ const BLOG_POSTS = [
   { slug: "/blog/best-cricket-prediction-sites-online",            title: "Best Cricket Prediction Sites Online 2026",                  desc: "ML-powered predictions, live odds and expert analysis.",                          datePublished: "2026-04-05", dateModified: "2026-06-05", image: `${SITE}/og-image.jpg` },
   { slug: "/blog/how-to-bet-on-live-cricket-matches-online",       title: "How to Bet on Live Cricket Matches Online",                  desc: "Complete guide to live cricket betting with best odds.",                          datePublished: "2026-04-18", dateModified: "2026-06-08", image: `${SITE}/og-image.jpg` },
   { slug: "/blog/mobile-friendly-sports-betting-platforms",        title: "Mobile Friendly Sports Betting Platforms 2026",              desc: "Works perfectly on all phones with no app download needed.",                     datePublished: "2026-05-02", dateModified: "2026-06-10", image: `${SITE}/og-image.jpg` },
-  { slug: "/blog/cricket-betting-id-india",                         title: "Cricket Betting ID India – Free ID & Fast Payouts | Khelo24Id", desc: "Get a free cricket betting ID in India. Bet on IPL, T20 World Cup & more with ₹100 min deposit and 5-min withdrawals.", datePublished: "2026-06-20", dateModified: "2026-06-23", image: `${SITE}/blog-cricket-betting-id-hero.jpg` },
+  { slug: "/blog/cricket-betting-id-india",                         title: "Cricket Betting ID India – Free ID & Fast Payouts | Khelo24App", desc: "Get a free cricket betting ID in India. Bet on IPL, T20 World Cup & more with ₹100 min deposit and 5-min withdrawals.", datePublished: "2026-06-20", dateModified: "2026-06-23", image: `${SITE}/blog-cricket-betting-id-hero.jpg` },
 ];
 
 const BLOG_FAQ_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "What kind of betting guides are available on the Khelo24Id blog?", acceptedAnswer: { "@type": "Answer", text: "Our blog covers cricket betting tips, Aviator strategies, Teen Patti guides, platform tutorials, and expert advice for Indian players. Every article is written in simple language to help beginners and experienced players alike." } },
+    { "@type": "Question", name: "What kind of betting guides are available on the Khelo24App blog?", acceptedAnswer: { "@type": "Answer", text: "Our blog covers cricket betting tips, Aviator strategies, Teen Patti guides, platform tutorials, and expert advice for Indian players. Every article is written in simple language to help beginners and experienced players alike." } },
     { "@type": "Question", name: "How often are new blog articles published?", acceptedAnswer: { "@type": "Answer", text: "We publish fresh betting guides and cricket match tips regularly, especially during major events like IPL, T20 World Cup, and ODI World Cup. Subscribe to stay updated with the latest strategies." } },
     { "@type": "Question", name: "Are the cricket betting tips on the blog reliable?", acceptedAnswer: { "@type": "Answer", text: "Yes, our cricket tips are based on team form, pitch reports, player stats, and historical data. While no prediction is guaranteed, our analysis helps you make more informed betting decisions." } },
     { "@type": "Question", name: "Can beginners learn how to bet from the blog?", acceptedAnswer: { "@type": "Answer", text: "Absolutely. We have beginner-friendly guides like how to login, how to join, how to deposit, and how to place your first cricket bet. Each guide includes step-by-step instructions." } },
-    { "@type": "Question", name: "Is the blog content free to read?", acceptedAnswer: { "@type": "Answer", text: "Yes, all blog articles on Khelo24Id.live are completely free. You can read betting tips, game strategies, and platform guides without any registration or payment." } },
+    { "@type": "Question", name: "Is the blog content free to read?", acceptedAnswer: { "@type": "Answer", text: "Yes, all blog articles on khelo24app.live are completely free. You can read betting tips, game strategies, and platform guides without any registration or payment." } },
     { "@type": "Question", name: "How do I get my Cricket Betting ID after reading the blog?", acceptedAnswer: { "@type": "Answer", text: "Simply click the 'Get ID on WhatsApp' button on our website. Our support team will create your Cricket Betting ID and send it to your WhatsApp within 5 minutes." } },
   ]
 };
@@ -140,13 +140,13 @@ const BLOG_FAQ_SCHEMA = {
 const BLOG_LISTING_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "Khelo24Id.live Blog",
+  name: "khelo24app.live Blog",
   url: `${SITE}/blog`,
   description: "Expert cricket betting tips, Aviator strategies, and step-by-step guides for Indian players.",
   inLanguage: "en-IN",
   publisher: {
     "@type": "Organization",
-    name: "Khelo24Id.live",
+    name: "khelo24app.live",
     url: SITE,
     logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` }
   },
@@ -159,7 +159,7 @@ const BLOG_LISTING_SCHEMA = {
     datePublished: post.datePublished,
     dateModified: post.dateModified,
     author: AUTHOR,
-    publisher: { "@type": "Organization", name: "Khelo24Id.live", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` } },
+    publisher: { "@type": "Organization", name: "khelo24app.live", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` } },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}${post.slug}` }
   }))
 };
@@ -261,7 +261,7 @@ for (const [route, meta] of Object.entries(PAGES)) {
       datePublished: postMeta.datePublished || "2026-01-10",
       dateModified: postMeta.dateModified || "2026-06-10",
       author: AUTHOR,
-      publisher: { "@type": "Organization", name: "Khelo24Id.live", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` } },
+      publisher: { "@type": "Organization", name: "khelo24app.live", url: SITE, logo: { "@type": "ImageObject", url: `${SITE}/favicon.png` } },
       mainEntityOfPage: { "@type": "WebPage", "@id": canonicalUrl }
     };
     const blogPostScript = `<script type="application/ld+json">\n${JSON.stringify(blogPostSchema, null, 2)}\n</script>`;
@@ -277,7 +277,7 @@ for (const [route, meta] of Object.entries(PAGES)) {
       <div id="root">
         <header class="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
           <div class="container flex h-14 max-w-screen-2xl items-center justify-between">
-            <a href="/" class="flex items-center gap-2 font-bold text-lg">Khelo24Id</a>
+            <a href="/" class="flex items-center gap-2 font-bold text-lg">Khelo24App</a>
           </div>
         </header>
         <nav class="border-b border-border">
@@ -288,7 +288,7 @@ for (const [route, meta] of Object.entries(PAGES)) {
         <main>
           <section class="container py-12 md:py-20">
             <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4">
-              Contact <span class="text-gradient-gold">Khelo24Id.live</span>
+              Contact <span class="text-gradient-gold">khelo24app.live</span>
             </h1>
             <p class="text-muted-foreground max-w-2xl mb-10">We're here to help — reach out anytime for login issues, deposits, withdrawals or game queries.</p>
 
@@ -335,35 +335,35 @@ for (const [route, meta] of Object.entries(PAGES)) {
             <h2 class="text-2xl md:text-3xl font-bold mb-6">Contact Support FAQs</h2>
             <div class="space-y-4">
               <div class="p-5 rounded-xl bg-card/50 border border-border">
-                <h3 class="font-bold mb-2">How can I contact Khelo24Id customer support?</h3>
-                <p class="text-sm text-muted-foreground leading-relaxed">You can reach Khelo24Id support 24x7 via WhatsApp. Click the 'Chat on WhatsApp' button on any page or the floating WhatsApp icon. Our team replies in under 2 minutes.</p>
+                <h3 class="font-bold mb-2">How can I contact Khelo24App customer support?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">You can reach Khelo24App support 24x7 via WhatsApp. Click the 'Chat on WhatsApp' button on any page or the floating WhatsApp icon. Our team replies in under 2 minutes.</p>
               </div>
               <div class="p-5 rounded-xl bg-card/50 border border-border">
                 <h3 class="font-bold mb-2">What is the response time for support queries?</h3>
                 <p class="text-sm text-muted-foreground leading-relaxed">Average response time is under 2 minutes on WhatsApp. For complex issues like withdrawal verification or account recovery, resolution may take up to 30 minutes.</p>
               </div>
               <div class="p-5 rounded-xl bg-card/50 border border-border">
-                <h3 class="font-bold mb-2">Which languages does Khelo24Id support offer?</h3>
-                <p class="text-sm text-muted-foreground leading-relaxed">Khelo24Id customer support is available in Hindi, English, Telugu, and Tamil. You can chat in the language you are most comfortable with.</p>
+                <h3 class="font-bold mb-2">Which languages does Khelo24App support offer?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Khelo24App customer support is available in Hindi, English, Telugu, and Tamil. You can chat in the language you are most comfortable with.</p>
               </div>
               <div class="p-5 rounded-xl bg-card/50 border border-border">
                 <h3 class="font-bold mb-2">Can I get help with my cricket betting ID on WhatsApp?</h3>
                 <p class="text-sm text-muted-foreground leading-relaxed">Yes. Our support team can help you create a free cricket betting ID, reset your password, fix login issues, and guide you through deposits and withdrawals.</p>
               </div>
               <div class="p-5 rounded-xl bg-card/50 border border-border">
-                <h3 class="font-bold mb-2">What contact issues can Khelo24Id support help with?</h3>
+                <h3 class="font-bold mb-2">What contact issues can Khelo24App support help with?</h3>
                 <p class="text-sm text-muted-foreground leading-relaxed">We assist with account login, registration, deposits, withdrawals, game rules, cricket betting queries, Aviator and Teen Patti help, technical issues, and responsible gambling tools.</p>
               </div>
               <div class="p-5 rounded-xl bg-card/50 border border-border">
-                <h3 class="font-bold mb-2">Is Khelo24Id support available on weekends and holidays?</h3>
-                <p class="text-sm text-muted-foreground leading-relaxed">Yes, Khelo24Id support is available 24 hours a day, 7 days a week, including weekends and Indian public holidays.</p>
+                <h3 class="font-bold mb-2">Is Khelo24App support available on weekends and holidays?</h3>
+                <p class="text-sm text-muted-foreground leading-relaxed">Yes, Khelo24App support is available 24 hours a day, 7 days a week, including weekends and Indian public holidays.</p>
               </div>
             </div>
           </section>
 
           <footer class="border-t border-border bg-background/50 py-8">
             <div class="container text-center text-sm text-muted-foreground">
-              <p>&copy; 2024 Khelo24Id.live. All rights reserved.</p>
+              <p>&copy; 2024 khelo24app.live. All rights reserved.</p>
             </div>
           </footer>
         </main>
@@ -381,10 +381,10 @@ for (const [route, meta] of Object.entries(PAGES)) {
       mainEntity: [
         {
           "@type": "Question",
-          name: "How can I contact Khelo24Id customer support?",
+          name: "How can I contact Khelo24App customer support?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "You can reach Khelo24Id support 24x7 via WhatsApp. Click the 'Chat on WhatsApp' button on any page or the floating WhatsApp icon. Our team replies in under 2 minutes."
+            text: "You can reach Khelo24App support 24x7 via WhatsApp. Click the 'Chat on WhatsApp' button on any page or the floating WhatsApp icon. Our team replies in under 2 minutes."
           }
         },
         {
@@ -397,10 +397,10 @@ for (const [route, meta] of Object.entries(PAGES)) {
         },
         {
           "@type": "Question",
-          name: "Which languages does Khelo24Id support offer?",
+          name: "Which languages does Khelo24App support offer?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Khelo24Id customer support is available in Hindi, English, Telugu, and Tamil. You can chat in the language you are most comfortable with."
+            text: "Khelo24App customer support is available in Hindi, English, Telugu, and Tamil. You can chat in the language you are most comfortable with."
           }
         },
         {
@@ -413,7 +413,7 @@ for (const [route, meta] of Object.entries(PAGES)) {
         },
         {
           "@type": "Question",
-          name: "What contact issues can Khelo24Id support help with?",
+          name: "What contact issues can Khelo24App support help with?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "We assist with account login, registration, deposits, withdrawals, game rules, cricket betting queries, Aviator and Teen Patti help, technical issues, and responsible gambling tools."
@@ -421,10 +421,10 @@ for (const [route, meta] of Object.entries(PAGES)) {
         },
         {
           "@type": "Question",
-          name: "Is Khelo24Id support available on weekends and holidays?",
+          name: "Is Khelo24App support available on weekends and holidays?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, Khelo24Id support is available 24 hours a day, 7 days a week, including weekends and Indian public holidays."
+            text: "Yes, Khelo24App support is available 24 hours a day, 7 days a week, including weekends and Indian public holidays."
           }
         }
       ]

@@ -16,8 +16,8 @@ import { useSeo } from "@/hooks/use-seo";
 
 const Index = () => {
   useSeo({
-    title: "Khelo24Id – #1 Cricket Betting ID & Online Casino India | Fast Withdrawal",
-    description: "Get your Cricket Betting ID in 5 minutes at Khelo24Id.live! Play IPL betting, Aviator, Teen Patti & 500+ casino games. Fast UPI withdrawal & 24x7 support. Join India's most exciting betting platform today!",
+    title: "Khelo24App – #1 Cricket Betting ID & Online Casino India | Fast Withdrawal",
+    description: "Get your Cricket Betting ID in 5 minutes at khelo24app.live! Play IPL betting, Aviator, Teen Patti & 500+ casino games. Fast UPI withdrawal & 24x7 support. Join India's most exciting betting platform today!",
     canonical: "/",
   });
 
@@ -25,7 +25,7 @@ const Index = () => {
     <main>
       <Header />
       <h1 className="text-3xl md:text-5xl font-black text-center py-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-        Get Your Cricket Betting ID Instantly — Play, Win & Withdraw Fast at Khelo24Id
+        Get Your Cricket Betting ID Instantly — Play, Win & Withdraw Fast at Khelo24App
       </h1>
       <HeroSlider />
       <StatsBar />

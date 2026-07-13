@@ -6,8 +6,8 @@ import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 
 const TermsAndConditions = () => {
   useSeo({
-    title: "Terms and Conditions – Khelo24Id.live | User Agreement",
-    description: "Read the terms and conditions for using Khelo24Id.live. Understand your rights and responsibilities on our online cricket betting platform.",
+    title: "Terms and Conditions – khelo24app.live | User Agreement",
+    description: "Read the terms and conditions for using khelo24app.live. Understand your rights and responsibilities on our online cricket betting platform.",
     canonical: "/terms-and-conditions",
   });
 
@@ -25,7 +25,7 @@ const TermsAndConditions = () => {
           <section>
             <h2 className="text-xl md:text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
             <p className="text-muted-foreground leading-relaxed">
-              By accessing or using Khelo24Id.live ("Platform"), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of any changes.
+              By accessing or using khelo24app.live ("Platform"), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of any changes.
             </p>
           </section>
 
@@ -104,14 +104,14 @@ const TermsAndConditions = () => {
           <section>
             <h2 className="text-xl md:text-2xl font-bold mb-4">7. Intellectual Property</h2>
             <p className="text-muted-foreground leading-relaxed">
-              All content on Khelo24Id.live, including text, graphics, logos, and software, is the property of Khelo24Id.live or its licensors and is protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without our express written permission.
+              All content on khelo24app.live, including text, graphics, logos, and software, is the property of khelo24app.live or its licensors and is protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without our express written permission.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl md:text-2xl font-bold mb-4">8. Limitation of Liability</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Khelo24Id.live is provided "as is" without warranties of any kind. We are not liable for any direct, indirect, incidental, or consequential damages arising from your use of the platform. Gaming involves risk, and you should only play with money you can afford to lose.
+              khelo24app.live is provided "as is" without warranties of any kind. We are not liable for any direct, indirect, incidental, or consequential damages arising from your use of the platform. Gaming involves risk, and you should only play with money you can afford to lose.
             </p>
           </section>
 

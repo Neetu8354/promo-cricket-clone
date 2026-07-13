@@ -8,9 +8,9 @@ import { BlogFAQ } from "@/components/BlogFAQ";
 import { ArrowRight } from "lucide-react";
 
 const BLOGS = [
-  { slug: "/blog/cricket-betting-id-india", title: "Cricket Betting ID India – Free ID & Fast Payouts | Khelo24Id", desc: "Get a free cricket betting ID in India. Bet on IPL, T20 World Cup & more with ₹100 min deposit and 5-min withdrawals." },
-  { slug: "/blog/how-to-login-khelo24id", title: "How to Login Khelo24Id Step by Step Guide 2026", desc: "Complete step by step guide on how to login khelo24id with username." },
-  { slug: "/blog/how-to-use-khelo24id-online", title: "How to Use Khelo24Id Online — Complete Guide", desc: "Learn how to use khelo24id online platform and start playing instantly." },
+  { slug: "/blog/cricket-betting-id-india", title: "Cricket Betting ID India – Free ID & Fast Payouts | Khelo24App", desc: "Get a free cricket betting ID in India. Bet on IPL, T20 World Cup & more with ₹100 min deposit and 5-min withdrawals." },
+  { slug: "/blog/how-to-login-Khelo24App", title: "How to Login Khelo24App Step by Step Guide 2026", desc: "Complete step by step guide on how to login Khelo24App with username." },
+  { slug: "/blog/how-to-use-Khelo24App-online", title: "How to Use Khelo24App Online — Complete Guide", desc: "Learn how to use Khelo24App online platform and start playing instantly." },
   { slug: "/blog/best-online-sports-betting-platform-for-beginners", title: "Best Online Sports Betting Platform for Beginners 2026", desc: "India's easiest platform with free ID, fast payouts and 24x7 support." },
   { slug: "/blog/how-to-join-online-sports-gaming-website", title: "How to Join Online Sports Gaming Website", desc: "Get free cricket ID, deposit via UPI, and start playing instantly." },
   { slug: "/blog/live-cricket-betting-tips-online", title: "Live Cricket Betting Tips Online 2026", desc: "Expert predictions, match analysis and winning strategies." },
@@ -23,8 +23,8 @@ const BLOGS = [
 
 const BlogListing = () => {
   useSeo({
-    title: "Cricket Betting Tips & Guides | Khelo24Id.live Blog",
-    description: "Expert cricket betting tips, Aviator strategies, and step-by-step guides on Khelo24Id.live. Learn how to bet on IPL, get free cricket ID, and win more.",
+    title: "Cricket Betting Tips & Guides | khelo24app.live Blog",
+    description: "Expert cricket betting tips, Aviator strategies, and step-by-step guides on khelo24app.live. Learn how to bet on IPL, get free cricket ID, and win more.",
     canonical: "/blog",
   });
 
@@ -36,7 +36,7 @@ const BlogListing = () => {
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
           Blog & <span className="text-gradient-gold">Guides</span>
         </h1>
-        <p className="text-muted-foreground max-w-2xl mb-10">Tips, strategies and step-by-step guides to help you win more on Khelo24Id.live.</p>
+        <p className="text-muted-foreground max-w-2xl mb-10">Tips, strategies and step-by-step guides to help you win more on khelo24app.live.</p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {BLOGS.map((b) => (

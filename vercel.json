@@ -73,10 +73,10 @@
       "has": [
         {
           "type": "host",
-          "value": "khelo24id.live"
+          "value": "khelo24app.live"
         }
       ],
-      "destination": "https://www.khelo24id.live/",
+      "destination": "https://www.khelo24app.live/",
       "permanent": true
     },
     {
@@ -84,10 +84,10 @@
       "has": [
         {
           "type": "host",
-          "value": "khelo24id.live"
+          "value": "khelo24app.live"
         }
       ],
-      "destination": "https://www.khelo24id.live/:path*",
+      "destination": "https://www.khelo24app.live/:path*",
       "permanent": true
     }
   ],

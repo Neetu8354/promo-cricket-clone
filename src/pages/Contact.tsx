@@ -11,8 +11,8 @@ import ContactFAQ from "@/components/ContactFAQ";
 
 const Contact = () => {
   useSeo({
-    title: "Contact Us – Khelo24Id.live | 24x7 Support",
-    description: "Contact Khelo24Id for 24x7 WhatsApp support in Hindi, English, Telugu & Tamil. Get help with your cricket betting ID, deposits, withdrawals and more.",
+    title: "Contact Us – khelo24app.live | 24x7 Support",
+    description: "Contact Khelo24App for 24x7 WhatsApp support in Hindi, English, Telugu & Tamil. Get help with your cricket betting ID, deposits, withdrawals and more.",
     canonical: "/contact",
   });
 
@@ -22,7 +22,7 @@ const Contact = () => {
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Contact Us" }]} />
       <section className="container py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
-          Contact <span className="text-gradient-gold">Khelo24Id.live</span>
+          Contact <span className="text-gradient-gold">khelo24app.live</span>
         </h1>
         <p className="text-muted-foreground max-w-2xl mb-10">We're here to help — reach out anytime for login issues, deposits, withdrawals or game queries.</p>
 
@@ -71,7 +71,7 @@ const Contact = () => {
 
       <ContactFAQ />
 
-      <RelatedLinks links={[{ to: "/about", label: "About Khelo24Id.live" }, { to: "/blog/how-to-login-khelo24id", label: "How to Login — Step by Step" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Game" }]} />
+      <RelatedLinks links={[{ to: "/about", label: "About khelo24app.live" }, { to: "/blog/how-to-login-Khelo24App", label: "How to Login — Step by Step" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/aviator", label: "Play Aviator Game" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

@@ -21,8 +21,8 @@ const NotFound = () => {
   const location = useLocation();
 
   useSeo({
-    title: "Page Not Found — Khelo24Id.live",
-    description: "The page you're looking for doesn't exist. Browse our games, betting guides, or contact 24x7 support on Khelo24Id.live.",
+    title: "Page Not Found — khelo24app.live",
+    description: "The page you're looking for doesn't exist. Browse our games, betting guides, or contact 24x7 support on khelo24app.live.",
     canonical: "/404",
   });
 

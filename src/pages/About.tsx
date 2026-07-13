@@ -25,8 +25,8 @@ const STATS = [
 
 const About = () => {
   useSeo({
-    title: "About Khelo24Id.live | Trusted Cricket Betting Platform India",
-    description: "Learn about Khelo24Id.live - India's trusted online cricket betting platform. Fast withdrawals under 5 minutes, 24x7 WhatsApp support, and secure UPI transactions.",
+    title: "About khelo24app.live | Trusted Cricket Betting Platform India",
+    description: "Learn about khelo24app.live - India's trusted online cricket betting platform. Fast withdrawals under 5 minutes, 24x7 WhatsApp support, and secure UPI transactions.",
     canonical: "/about",
   });
 
@@ -36,14 +36,14 @@ const About = () => {
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "About Us" }]} />
       <section className="container py-12 md:py-20">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-4">
-          About Khelo24Id — <span className="text-gradient-gold">Built for India, Built for Winners</span>
+          About Khelo24App — <span className="text-gradient-gold">Built for India, Built for Winners</span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mb-10">
-          Khelo24Id.live was born from a simple but powerful idea — to create an online gaming platform that truly understands Indian players. No complicated processes, no hidden fees, no unnecessary waiting. Just pure gaming excitement, delivered with complete trust.
+          khelo24app.live was born from a simple but powerful idea — to create an online gaming platform that truly understands Indian players. No complicated processes, no hidden fees, no unnecessary waiting. Just pure gaming excitement, delivered with complete trust.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-14">
-          <img src={aboutImg} alt="Khelo24Id.live gaming platform interface" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
+          <img src={aboutImg} alt="khelo24app.live gaming platform interface" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
           <div>
             <p className="text-muted-foreground leading-relaxed mb-4">
               We know that in India, cricket is more than a sport — it's an emotion, a way of life. That's why we built a world-class cricket betting experience that still feels personal, local, and completely yours.
@@ -97,7 +97,7 @@ const About = () => {
         {/* CTA */}
         <div className="text-center p-8 rounded-2xl bg-primary/10 border border-primary/30">
           <h2 className="text-xl font-bold mb-2">Ready to Join?</h2>
-          <p className="text-muted-foreground mb-4">Experience the Khelo24Id difference today!</p>
+          <p className="text-muted-foreground mb-4">Experience the Khelo24App difference today!</p>
           <Button onClick={openWA} size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold">
             <MessageCircle className="h-5 w-5 mr-2" /> Join Now on WhatsApp
           </Button>

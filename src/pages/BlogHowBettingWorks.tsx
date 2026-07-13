@@ -12,8 +12,8 @@ import blogImg from "@/assets/promo-arcade.jpg";
 
 const BlogHowBettingWorks = () => {
   useSeo({
-    title: "How Sports Betting Platforms Work Online 2026 | Khelo24Id.live",
-    description: "Learn how sports betting platforms work online. Understand odds, deposits, withdrawals and gameplay on Khelo24Id.live.",
+    title: "How Sports Betting Platforms Work Online 2026 | khelo24app.live",
+    description: "Learn how sports betting platforms work online. Understand odds, deposits, withdrawals and gameplay on khelo24app.live.",
     canonical: "/blog/how-sports-betting-platforms-work-online",
   });
 
@@ -27,12 +27,12 @@ const BlogHowBettingWorks = () => {
           How Sports Betting Platforms <span className="text-gradient-gold">Work Online</span>
         </h1>
 
-        <img src={blogImg} alt="how online sports betting works explained khelo24id.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="how online sports betting works explained khelo24app.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Understanding Online Sports Betting</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Ever wondered <strong className="text-foreground">how sports betting platforms work online</strong>? It's simpler than you think. An <strong className="text-foreground">online sports gaming platform</strong> like Khelo24Id.live connects you to live sporting events where you can predict outcomes and win money based on odds.
+            Ever wondered <strong className="text-foreground">how sports betting platforms work online</strong>? It's simpler than you think. An <strong className="text-foreground">online sports gaming platform</strong> like khelo24app.live connects you to live sporting events where you can predict outcomes and win money based on odds.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             The process on our <strong className="text-foreground">sports betting platform online</strong> is straightforward: you create an account, deposit funds, choose a game or match, place your bet, and if your prediction is correct — you win! Withdrawals are processed in under 5 minutes on this <strong className="text-foreground">live sports betting site</strong>.
@@ -48,7 +48,7 @@ const BlogHowBettingWorks = () => {
             </div>
             <div className="p-4 rounded-xl bg-card/50 border border-border">
               <h3 className="font-bold mb-1">Deposits & Withdrawals</h3>
-              <p className="text-sm text-muted-foreground">On Khelo24Id.live, deposit via UPI, IMPS or Net Banking (min ₹100). Withdrawals happen in under 5 minutes.</p>
+              <p className="text-sm text-muted-foreground">On khelo24app.live, deposit via UPI, IMPS or Net Banking (min ₹100). Withdrawals happen in under 5 minutes.</p>
             </div>
             <div className="p-4 rounded-xl bg-card/50 border border-border">
               <h3 className="font-bold mb-1">Live Betting</h3>
@@ -56,15 +56,15 @@ const BlogHowBettingWorks = () => {
             </div>
             <div className="p-4 rounded-xl bg-card/50 border border-border">
               <h3 className="font-bold mb-1">Customer Support</h3>
-              <p className="text-sm text-muted-foreground">A good <strong>safe online sports betting website</strong> offers 24x7 support. Khelo24Id provides WhatsApp assistance round the clock.</p>
+              <p className="text-sm text-muted-foreground">A good <strong>safe online sports betting website</strong> offers 24x7 support. Khelo24App provides WhatsApp assistance round the clock.</p>
             </div>
           </div>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl md:text-2xl font-bold mb-3">Why Khelo24Id Is Different</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-3">Why Khelo24App Is Different</h2>
           <p className="text-muted-foreground leading-relaxed">
-            Most <strong className="text-foreground">online betting websites</strong> are complex and confusing. Khelo24Id.live is built for Indian players with a WhatsApp-first approach, INR-only transactions, and one of the fastest withdrawal systems among <strong className="text-foreground">mobile friendly sports betting platforms</strong>.
+            Most <strong className="text-foreground">online betting websites</strong> are complex and confusing. khelo24app.live is built for Indian players with a WhatsApp-first approach, INR-only transactions, and one of the fastest withdrawal systems among <strong className="text-foreground">mobile friendly sports betting platforms</strong>.
           </p>
         </section>
 

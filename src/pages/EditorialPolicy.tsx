@@ -7,8 +7,8 @@ import { FileText, Users, Shield, AlertTriangle, RefreshCw, Mail } from "lucide-
 
 const EditorialPolicy = () => {
   useSeo({
-    title: "Editorial Policy | Content Standards | Khelo24Id.live",
-    description: "Read Khelo24Id.live's editorial policy. Learn about our content standards, accuracy commitment, responsible gambling messaging, and how we maintain trust.",
+    title: "Editorial Policy | Content Standards | khelo24app.live",
+    description: "Read khelo24app.live's editorial policy. Learn about our content standards, accuracy commitment, responsible gambling messaging, and how we maintain trust.",
     canonical: "/editorial-policy",
   });
 
@@ -22,7 +22,7 @@ const EditorialPolicy = () => {
           Editorial <span className="text-gradient-gold">Policy</span>
         </h1>
         <p className="text-lg text-muted-foreground mb-10">
-          At Khelo24Id.live, we are committed to providing accurate, helpful, and responsible content to our users. This policy outlines our standards and practices.
+          At khelo24app.live, we are committed to providing accurate, helpful, and responsible content to our users. This policy outlines our standards and practices.
         </p>
 
         <div className="prose prose-invert max-w-none space-y-10">
@@ -35,7 +35,7 @@ const EditorialPolicy = () => {
               <div>
                 <h2 className="text-2xl font-bold mb-2">Our Commitment to Quality</h2>
                 <p className="text-muted-foreground">
-                  We believe that our users deserve accurate, clear, and helpful information. Every piece of content on Khelo24Id.live is created with the goal of helping users make informed decisions about their gaming experience.
+                  We believe that our users deserve accurate, clear, and helpful information. Every piece of content on khelo24app.live is created with the goal of helping users make informed decisions about their gaming experience.
                 </p>
               </div>
             </div>

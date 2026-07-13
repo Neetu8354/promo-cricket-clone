@@ -6,9 +6,9 @@ import cardAndar from "@/assets/card-andarbahar.jpg";
 import { Play } from "lucide-react";
 
 const GAMES = [
-  { img: cardLive, title: "Live Cricket Betting", to: "/cricket", alt: "Live cricket betting on Khelo24Id.live - IPL, T20 World Cup and all major tournaments" },
-  { img: cardAndar, title: "Aviator", to: "/aviator", alt: "Aviator crash game on Khelo24Id.live - Watch multipliers rise and cash out to win" },
-  { img: cardTeen, title: "Teen Patti", to: "/teen-patti", alt: "Teen Patti online card game on Khelo24Id.live with live dealers" },
+  { img: cardLive, title: "Live Cricket Betting", to: "/cricket", alt: "Live cricket betting on khelo24app.live - IPL, T20 World Cup and all major tournaments" },
+  { img: cardAndar, title: "Aviator", to: "/aviator", alt: "Aviator crash game on khelo24app.live - Watch multipliers rise and cash out to win" },
+  { img: cardTeen, title: "Teen Patti", to: "/teen-patti", alt: "Teen Patti online card game on khelo24app.live with live dealers" },
 ];
 
 export const PopularGames = () => (
@@ -18,7 +18,7 @@ export const PopularGames = () => (
         Popular <span className="text-gradient-gold">Games</span>
       </h2>
       <p className="text-sm text-muted-foreground mt-2 max-w-2xl mx-auto">
-        Explore top games on <strong className="text-foreground">khelo24id.live</strong> — from <strong className="text-foreground">live cricket betting</strong> and <strong className="text-foreground">Aviator crash game</strong> to <strong className="text-foreground">Teen Patti online</strong>. Get your <strong className="text-foreground">free cricket ID</strong> and start playing today.
+        Explore top games on <strong className="text-foreground">khelo24app.live</strong> — from <strong className="text-foreground">live cricket betting</strong> and <strong className="text-foreground">Aviator crash game</strong> to <strong className="text-foreground">Teen Patti online</strong>. Get your <strong className="text-foreground">free cricket ID</strong> and start playing today.
       </p>
     </div>
     <div className="grid sm:grid-cols-3 gap-4">
