@@ -9,25 +9,25 @@ import blogImg from "@/assets/card-fantasy.jpg";
 
 const Blog = () => {
   useSeo({
-    title: "How to Login Khelo24App | Step by Step Guide 2026",
-    description: "Complete step-by-step guide on how to login to khelo24app.live. Get your cricket betting ID via WhatsApp and start playing in under 60 seconds.",
-    canonical: "/blog/how-to-login-Khelo24App",
+    title: "How to Login Khelo24Id | Step by Step Guide 2026",
+    description: "Complete step-by-step guide on how to login to Khelo24Id.live. Get your cricket betting ID via WhatsApp and start playing in under 60 seconds.",
+    canonical: "/blog/how-to-login-khelo24id",
   });
 
   return (
     <main>
       <Header />
       <BreadcrumbNav items={[{ label: "Home", href: "/" }, { label: "Blog", href: "/blog" }, { label: "How to Login" }]} />
-      <BlogPostingSchema title="How to Login Khelo24App Step by Step Guide 2026" description="Complete step by step guide on how to login Khelo24App with username." slug="/blog/how-to-login-Khelo24App" />
+      <BlogPostingSchema title="How to Login Khelo24Id Step by Step Guide 2026" description="Complete step by step guide on how to login khelo24id with username." slug="/blog/how-to-login-khelo24id" />
       <article className="container py-12 md:py-20 max-w-3xl mx-auto">
         <h1 className="text-3xl md:text-5xl font-black tracking-tight mb-6">
-          How to Login Khelo24App <span className="text-gradient-gold">Step by Step Guide 2026</span>
+          How to Login Khelo24Id <span className="text-gradient-gold">Step by Step Guide 2026</span>
         </h1>
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Easy Login Process</h2>
           <p className="text-muted-foreground leading-relaxed">
-            If you're new and searching <strong className="text-foreground">how to login Khelo24App with username</strong>, this <strong className="text-foreground">Khelo24App login guide step by step</strong> makes it very simple to access the <strong className="text-foreground">online sports gaming platform</strong>.
+            If you're new and searching <strong className="text-foreground">how to login khelo24id with username</strong>, this <strong className="text-foreground">khelo24id login guide step by step</strong> makes it very simple to access the <strong className="text-foreground">online sports gaming platform</strong>.
           </p>
         </section>
 
@@ -38,7 +38,7 @@ const Blog = () => {
               <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-sm">1</span>
               <div>
                 <h3 className="font-bold mb-1">Visit the website and enter your credentials</h3>
-                <p className="text-sm text-muted-foreground">Go to khelo24app.live and enter your username and password in the login form.</p>
+                <p className="text-sm text-muted-foreground">Go to Khelo24Id.live and enter your username and password in the login form.</p>
               </div>
             </div>
             <div className="flex gap-4 p-4 rounded-xl bg-card/50 border border-border">
@@ -51,10 +51,10 @@ const Blog = () => {
           </div>
         </section>
 
-        <img src={blogImg} alt="how to login Khelo24App step by step guide khelo24app.live" className="rounded-xl border border-border w-full aspect-video object-cover mt-8" loading="lazy" />
+        <img src={blogImg} alt="how to login khelo24id step by step guide khelo24id.live" className="rounded-xl border border-border w-full aspect-video object-cover mt-8" loading="lazy" />
       </article>
 
-      <RelatedLinks links={[{ to: "/blog/how-to-use-Khelo24App-online", label: "How to Use Khelo24App Online" }, { to: "/blog/how-to-join-online-sports-gaming-website", label: "How to Join & Get Free ID" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/about", label: "About khelo24app.live" }]} />
+      <RelatedLinks links={[{ to: "/blog/how-to-use-khelo24id-online", label: "How to Use Khelo24Id Online" }, { to: "/blog/how-to-join-online-sports-gaming-website", label: "How to Join & Get Free ID" }, { to: "/cricket", label: "Live Cricket Betting" }, { to: "/about", label: "About Khelo24Id.live" }]} />
       <Footer />
       <FloatingWhatsApp />
     </main>

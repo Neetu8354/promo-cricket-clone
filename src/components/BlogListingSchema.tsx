@@ -12,19 +12,19 @@ interface BlogListingSchemaProps {
   posts: BlogPost[];
 }
 
-const SITE = "https://www.khelo24app.live";
+const SITE = "https://www.khelo24id.live";
 
 export const BlogListingSchema = ({ posts }: BlogListingSchemaProps) => {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    name: "khelo24app.live Blog",
+    name: "Khelo24Id.live Blog",
     url: `${SITE}/blog`,
     description: "Expert cricket betting tips, Aviator strategies, and step-by-step guides for Indian players.",
     inLanguage: "en-IN",
     publisher: {
       "@type": "Organization",
-      name: "khelo24app.live",
+      name: "Khelo24Id.live",
       url: SITE,
       logo: {
         "@type": "ImageObject",
@@ -41,12 +41,12 @@ export const BlogListingSchema = ({ posts }: BlogListingSchemaProps) => {
       dateModified: post.dateModified || "2026-05-01",
       author: {
         "@type": "Organization",
-        name: "khelo24app.live",
+        name: "Khelo24Id.live",
         url: SITE,
       },
       publisher: {
         "@type": "Organization",
-        name: "khelo24app.live",
+        name: "Khelo24Id.live",
         url: SITE,
         logo: {
           "@type": "ImageObject",

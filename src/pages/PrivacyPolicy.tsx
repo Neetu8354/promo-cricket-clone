@@ -6,8 +6,8 @@ import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 
 const PrivacyPolicy = () => {
   useSeo({
-    title: "Privacy Policy – khelo24app.live | Data Protection & Security",
-    description: "Read khelo24app.live's privacy policy. Learn how we collect, use, and protect your personal information on our online cricket betting platform.",
+    title: "Privacy Policy – Khelo24Id.live | Data Protection & Security",
+    description: "Read Khelo24Id.live's privacy policy. Learn how we collect, use, and protect your personal information on our online cricket betting platform.",
     canonical: "/privacy-policy",
   });
 
@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-xl md:text-2xl font-bold mb-4">1. Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              khelo24app.live ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our online sports gaming platform. Please read this privacy policy carefully. By using our services, you consent to the data practices described in this policy.
+              Khelo24Id.live ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our online sports gaming platform. Please read this privacy policy carefully. By using our services, you consent to the data practices described in this policy.
             </p>
           </section>
 

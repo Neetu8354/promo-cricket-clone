@@ -5,7 +5,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Is the Cricket Betting ID completely free?",
-    answer: "Yes, absolutely! Getting your Cricket Betting ID on Khelo24App is 100% free. There are no hidden charges, registration fees, or any cost to create your account."
+    answer: "Yes, absolutely! Getting your Cricket Betting ID on Khelo24Id is 100% free. There are no hidden charges, registration fees, or any cost to create your account."
   },
   {
     question: "Which cricket matches can I bet on?",
@@ -21,7 +21,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Is my Cricket Betting ID safe and secure?",
-    answer: "Yes. Khelo24App uses 256-bit SSL encryption — the same technology used by major banks. Your personal data, betting history, and financial transactions are completely protected."
+    answer: "Yes. Khelo24Id uses 256-bit SSL encryption — the same technology used by major banks. Your personal data, betting history, and financial transactions are completely protected."
   }
 ];
 

@@ -1,14 +1,14 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const FAQS = [
-  { q: "How do I create an account on Khelo24App?", a: "It's incredibly simple! Click the Register button on our website, enter your mobile number, verify with an OTP, and you're done. Your Cricket Betting ID will be delivered straight to your WhatsApp within 5 minutes." },
+  { q: "How do I create an account on Khelo24Id?", a: "It's incredibly simple! Click the Register button on our website, enter your mobile number, verify with an OTP, and you're done. Your Cricket Betting ID will be delivered straight to your WhatsApp within 5 minutes." },
   { q: "What is the minimum deposit amount?", a: "You can get started with as little as ₹100! We believe every player deserves to enjoy the thrill of gaming — whether you're a first-timer or a seasoned pro." },
   { q: "How fast are withdrawals processed?", a: "Our withdrawals are among the fastest in India. Once you submit a withdrawal request, your money reaches your UPI, PhonePe, Google Pay, or Paytm account in under 5 minutes — including on weekends." },
-  { q: "Is Khelo24App safe and secure?", a: "Absolutely. khelo24app.live uses 256-bit SSL encryption — the same technology used by major banks. Your personal data and financial transactions are completely protected at all times." },
+  { q: "Is Khelo24Id safe and secure?", a: "Absolutely. Khelo24Id.live uses 256-bit SSL encryption — the same technology used by major banks. Your personal data and financial transactions are completely protected at all times." },
   { q: "Which payment methods are accepted?", a: "We support all major Indian payment methods: UPI, PhonePe, Google Pay, Paytm, IMPS, and Net Banking. Fast, easy, and completely free of transaction charges." },
   { q: "How does the Aviator game work?", a: "Aviator is a timing-based crash game where a multiplier rises until the plane crashes. You can cash out at any time before the crash — the longer you wait, the higher the risk. Many players use the Auto Cash Out feature at a target like 1.5x or 2x to manage risk, but every round is independent and no strategy guarantees a win." },
   { q: "How do I contact customer support?", a: "Our support team is available 24x7! Reach us via WhatsApp, live chat on the website, or email. We respond within minutes in both English and Hindi." },
-  { q: "Can I play on my mobile phone?", a: "Yes! khelo24app.live is fully optimized for mobile. No app download needed — simply open the website in your browser on any Android or iPhone and enjoy a seamless gaming experience." },
+  { q: "Can I play on my mobile phone?", a: "Yes! Khelo24Id.live is fully optimized for mobile. No app download needed — simply open the website in your browser on any Android or iPhone and enjoy a seamless gaming experience." },
 ];
 
 const faqSchema = {

@@ -69,7 +69,7 @@ export const Footer = () => (
     </div>
     <div className="border-t border-border">
       <div className="container py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-        <p>© {new Date().getFullYear()} khelo24app.live. 18+ only. Play responsibly.</p>
+        <p>© {new Date().getFullYear()} Khelo24Id.live. 18+ only. Play responsibly.</p>
         <div className="flex items-center gap-4">
           <Link to="/privacy-policy" className="hover:text-primary transition-smooth">Privacy Policy</Link>
           <Link to="/terms-and-conditions" className="hover:text-primary transition-smooth">Terms</Link>

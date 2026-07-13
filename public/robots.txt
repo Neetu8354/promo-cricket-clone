@@ -1,4 +1,4 @@
-# Robots.txt for khelo24app.live
+# Robots.txt for khelo24id.live
 # Last updated: June 2026
 
 User-agent: Googlebot
@@ -26,7 +26,7 @@ Disallow: /api/
 Disallow: /private/
 
 # Sitemap location
-Sitemap: https://khelo24app.live/sitemap.xml
+Sitemap: https://khelo24id.live/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

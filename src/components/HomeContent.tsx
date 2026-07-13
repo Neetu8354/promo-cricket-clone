@@ -4,15 +4,15 @@ export const HomeContent = () => (
   <section className="container py-10 md:py-14">
     <div className="max-w-4xl mx-auto">
       <h2 className="text-2xl md:text-3xl font-black mb-6">
-        Welcome to <span className="text-gradient-gold">khelo24app.live</span> – India's Trusted Online Cricket Betting Platform
+        Welcome to <span className="text-gradient-gold">Khelo24Id.live</span> – India's Trusted Online Cricket Betting Platform
       </h2>
       
       <div className="prose prose-invert max-w-none space-y-6 text-muted-foreground">
         <p className="leading-relaxed">
-          <strong className="text-foreground">khelo24app.live</strong> is India's premier online cricket betting platform, offering a seamless gaming experience with instant withdrawals, 24x7 WhatsApp support, and secure UPI transactions. Whether you're looking to bet on IPL matches, play Aviator crash game, or enjoy Teen Patti with live dealers, we've got you covered.
+          <strong className="text-foreground">Khelo24Id.live</strong> is India's premier online cricket betting platform, offering a seamless gaming experience with instant withdrawals, 24x7 WhatsApp support, and secure UPI transactions. Whether you're looking to bet on IPL matches, play Aviator crash game, or enjoy Teen Patti with live dealers, we've got you covered.
         </p>
 
-        <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Why Choose khelo24app.live?</h3>
+        <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Why Choose Khelo24Id.live?</h3>
         <ul className="list-disc list-inside space-y-2 ml-4">
           <li><strong className="text-foreground">Free Cricket ID:</strong> Get your betting ID instantly via WhatsApp – no lengthy registration forms</li>
           <li><strong className="text-foreground">Fast Withdrawals:</strong> Receive your winnings in under 5 minutes directly to your bank account or UPI</li>
@@ -21,7 +21,7 @@ export const HomeContent = () => (
           <li><strong className="text-foreground">Best Odds:</strong> Competitive odds on IPL, T20 World Cup, ODI matches, and all major cricket tournaments</li>
         </ul>
 
-        <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Popular Games on khelo24app.live</h3>
+        <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Popular Games on Khelo24Id.live</h3>
         <p className="leading-relaxed">
           Our platform offers a wide variety of games tailored for Indian players:
         </p>
@@ -35,7 +35,7 @@ export const HomeContent = () => (
 
         <h3 className="text-xl font-bold text-foreground mt-8 mb-4">How to Get Started</h3>
         <p className="leading-relaxed">
-          Getting started on khelo24app.live is simple and takes less than 60 seconds:
+          Getting started on Khelo24Id.live is simple and takes less than 60 seconds:
         </p>
         <ol className="list-decimal list-inside space-y-2 ml-4">
           <li>Click any "Get ID on WhatsApp" button on our website</li>
@@ -46,7 +46,7 @@ export const HomeContent = () => (
 
         <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Safe and Responsible Gaming</h3>
         <p className="leading-relaxed">
-          At khelo24app.live, we are committed to promoting <Link to="/responsible-gambling" className="text-primary hover:underline">responsible gambling</Link>. We encourage all players to set deposit limits, take regular breaks, and play within their means. Our platform is strictly for users aged 18 and above. If you feel gambling is affecting your life, please visit our responsible gambling page for help resources.
+          At Khelo24Id.live, we are committed to promoting <Link to="/responsible-gambling" className="text-primary hover:underline">responsible gambling</Link>. We encourage all players to set deposit limits, take regular breaks, and play within their means. Our platform is strictly for users aged 18 and above. If you feel gambling is affecting your life, please visit our responsible gambling page for help resources.
         </p>
 
         <p className="leading-relaxed">

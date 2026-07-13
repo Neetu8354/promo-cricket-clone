@@ -12,8 +12,8 @@ import blogImg from "@/assets/card-prediction.jpg";
 
 const BlogCricketPrediction = () => {
   useSeo({
-    title: "Best Cricket Prediction Sites Online 2026 | khelo24app.live",
-    description: "Find the best cricket prediction sites online in 2026. khelo24app.live offers ML-powered predictions, live odds and expert analysis.",
+    title: "Best Cricket Prediction Sites Online 2026 | Khelo24Id.live",
+    description: "Find the best cricket prediction sites online in 2026. Khelo24Id.live offers ML-powered predictions, live odds and expert analysis.",
     canonical: "/blog/best-cricket-prediction-sites-online",
   });
 
@@ -27,12 +27,12 @@ const BlogCricketPrediction = () => {
           Best Cricket Prediction <span className="text-gradient-gold">Sites Online 2026</span>
         </h1>
 
-        <img src={blogImg} alt="best cricket prediction sites online khelo24app.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
+        <img src={blogImg} alt="best cricket prediction sites online khelo24id.live" className="rounded-xl border border-border w-full aspect-video object-cover mb-8" loading="lazy" />
 
         <section className="mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-3">Why Predictions Matter in Cricket Betting</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Finding the <strong className="text-foreground">best cricket prediction sites online</strong> can transform your betting experience. At khelo24app.live, our <strong className="text-foreground">online sports gaming platform</strong> uses machine learning algorithms to analyze thousands of data points — pitch conditions, player form, head-to-head records and weather — to generate accurate predictions.
+            Finding the <strong className="text-foreground">best cricket prediction sites online</strong> can transform your betting experience. At Khelo24Id.live, our <strong className="text-foreground">online sports gaming platform</strong> uses machine learning algorithms to analyze thousands of data points — pitch conditions, player form, head-to-head records and weather — to generate accurate predictions.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             Whether it's IPL, T20 World Cup, or ODI series, having data-backed predictions on a reliable <strong className="text-foreground">sports betting platform online</strong> gives you a serious edge over casual bettors.
@@ -58,9 +58,9 @@ const BlogCricketPrediction = () => {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl md:text-2xl font-bold mb-3">Get Predictions on Khelo24App</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-3">Get Predictions on Khelo24Id</h2>
           <p className="text-muted-foreground leading-relaxed">
-            Our <strong className="text-foreground">sports gaming app online</strong> provides free predictions for all major cricket tournaments. Combined with competitive odds and fast payouts, khelo24app.live is the complete package for serious cricket bettors on the most <strong className="text-foreground">mobile friendly sports betting platforms</strong>.
+            Our <strong className="text-foreground">sports gaming app online</strong> provides free predictions for all major cricket tournaments. Combined with competitive odds and fast payouts, Khelo24Id.live is the complete package for serious cricket bettors on the most <strong className="text-foreground">mobile friendly sports betting platforms</strong>.
           </p>
         </section>
 

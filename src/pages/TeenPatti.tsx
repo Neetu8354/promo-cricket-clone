@@ -29,8 +29,8 @@ const HAND_RANKINGS = [
 
 const TeenPatti = () => {
   useSeo({
-    title: "Teen Patti Online Real Money | Play Live Teen Patti – Khelo24App",
-    description: "Play Teen Patti online with real money at khelo24app.live! Enjoy live dealers, multiple game variants & instant UPI withdrawals. India's most trusted Teen Patti platform. Join now!",
+    title: "Teen Patti Online Real Money | Play Live Teen Patti – Khelo24Id",
+    description: "Play Teen Patti online with real money at Khelo24Id.live! Enjoy live dealers, multiple game variants & instant UPI withdrawals. India's most trusted Teen Patti platform. Join now!",
     canonical: "/teen-patti",
   });
 
@@ -43,13 +43,13 @@ const TeenPatti = () => {
           Teen Patti Online — <span className="text-gradient-gold">India's Favourite Card Game, Now With Real Money!</span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mb-10">
-          From festive nights to casual evenings, Teen Patti has always been the heartbeat of Indian gaming culture. Now at khelo24app.live, experience the same excitement 24x7 — with real money, live dealers, and the authentic feel of your favourite card game right on your phone!
+          From festive nights to casual evenings, Teen Patti has always been the heartbeat of Indian gaming culture. Now at Khelo24Id.live, experience the same excitement 24x7 — with real money, live dealers, and the authentic feel of your favourite card game right on your phone!
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 items-center mb-14">
-          <img src={cardTeen} alt="Teen Patti online game interface on khelo24app.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
+          <img src={cardTeen} alt="Teen Patti online game interface on Khelo24Id.live" className="rounded-xl border border-border w-full aspect-video object-cover" loading="lazy" />
           <div>
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Why Play Teen Patti at Khelo24App?</h2>
+            <h2 className="text-xl md:text-2xl font-bold mb-4">Why Play Teen Patti at Khelo24Id?</h2>
             <div className="grid grid-cols-2 gap-3">
               {FEATURES.map((f) => (
                 <div key={f.title} className="p-3 rounded-lg bg-card/50 border border-border">
@@ -80,7 +80,7 @@ const TeenPatti = () => {
         {/* CTA */}
         <div className="text-center p-8 rounded-2xl bg-primary/10 border border-primary/30">
           <h2 className="text-xl font-bold mb-2">Ready to Play?</h2>
-          <p className="text-muted-foreground mb-4">Join thousands of players enjoying Teen Patti on khelo24app.live!</p>
+          <p className="text-muted-foreground mb-4">Join thousands of players enjoying Teen Patti on Khelo24Id.live!</p>
           <Button onClick={openWA} size="lg" className="bg-gradient-gold text-gold-foreground font-bold">
             <MessageCircle className="h-5 w-5 mr-2" /> Play Teen Patti Now
           </Button>

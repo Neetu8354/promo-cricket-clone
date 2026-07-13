@@ -10,7 +10,7 @@ interface BreadcrumbNavProps {
   items: BreadcrumbItem[];
 }
 
-const SITE = "https://www.khelo24app.live";
+const SITE = "https://www.khelo24id.live";
 
 export const BreadcrumbNav = ({ items }: BreadcrumbNavProps) => {
   const schemaItems = items.map((item, i) => ({
