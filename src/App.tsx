@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { BonusPopup } from "@/components/BonusPopup";
 import Index from "./pages/Index.tsx";
 import About from "./pages/About.tsx";
 import Cricket from "./pages/Cricket.tsx";
@@ -35,6 +36,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <BonusPopup />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
